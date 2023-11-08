@@ -13,14 +13,18 @@
 /* outline text end */
 
 /* Left-red-line-style */
+.left-line{
+    position: relative;
+    display: block;
+    width: 28px;
+}
 .left-line::before {
     content: '';
     position: absolute;
     height: 6px;
     width: 28px;
     background: #FE3B00;
-    left: -2.5%;
-    top: 47%;
+    top: -3px;
 }
 
 /* textred */
@@ -64,4 +68,16 @@
     border-radius: 100px;
     color: #FFF;
     font-size: 14px;
+}
+.truck-card-btn button{
+    background-color: transparent;
+    color: #000;
+    border-radius: 100px;
+    border: 1px solid #FE3B00;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+.spacing{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
