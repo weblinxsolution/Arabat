@@ -9,18 +9,24 @@
     font-family: Sf Pro Display;
     src: url("/assets/font/SFPRODISPLAYREGULAR.OTF");
 }
-.wrapper
-{
+
+.wrapper {
     width: 1400px;
     margin: auto;
     padding-left: 4%;
     padding-right: 4%;
 }
-p{
+
+img {
+    width: 100%;
+}
+
+p {
     font-size: 16px;
     color: #929292;
 }
-.banner-bg{
+
+.banner-bg {
     background-image: url("/assets/images/index-banner-bg.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -28,18 +34,118 @@ p{
     display: flex;
 
 }
-.negetive-margin{
+
+.negetive-margin {
     margin-top: -12%;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 30%;
 }
-.large-text1{
+
+.large-text1 {
     font-size: 90px;
 }
-.large-text2{
+
+.large-text2 {
     font-size: 100px;
 }
-.larger-text{
+
+.larger-text {
     font-size: 120px;
+}
+
+.top-logo {
+    width: 60px;
+}
+
+.login-heading p {
+    font-size: 50px;
+}
+
+.login-area {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Login_page_main {
+    height: 100vh;
+}
+
+.login-inputs {
+    position: relative;
+}
+
+.login-inputs input {
+    border: 1px solid #E20000;
+    padding: 3% 14%;
+    position: relative;
+}
+
+.login-inputs label {
+    font-size: 12px;
+    background-color: #FFF;
+    padding: 3px 20px 3px 8px;
+    position: absolute;
+    z-index: 1;
+    top: -12px;
+    left: 10px;
+}
+
+.message-icon {
+    position: absolute;
+    width: 8%;
+    top: 0.7rem;
+    left: 5%;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn button {
+    background: #E20000;
+    color: #FFF;
+    padding: 1.5rem 5rem;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.or-text {
+    position: relative;
+}
+
+.or-text p {
+    color: #000;
+}
+
+.or-text::before {
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 1px;
+    background: rgba(28, 28, 28, 0.20);
+    left: 0;
+    top: 50%;
+}
+
+.or-text::after {
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 1px;
+    background: rgba(28, 28, 28, 0.20);
+    right: 0;
+    top: 50%;
+}
+.my_auth_content{
+    overflow-y: scroll;
 }
