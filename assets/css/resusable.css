@@ -1,0 +1,40 @@
+/* Out-line Text */
+.out-line-text {
+    font-family: Sf Pro Display;
+    text-fill-color: transparent;
+    text-stroke: 2px #D93F21;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #D93F21;
+    font-weight: 400;
+    text-transform: uppercase;
+    -moz-text-fill-color: transparent;
+}
+
+/* outline text end */
+
+/* Left-red-line-style */
+.left-line::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 28px;
+    background: #FE3B00;
+    left: -2.5%;
+    top: 47%;
+}
+
+/* textred */
+.text-red {
+    color: #FE3B00;
+}
+
+/* Spacing For each section */
+.space {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.large-text1 {
+    position: relative;
+    z-index: 10;
+}

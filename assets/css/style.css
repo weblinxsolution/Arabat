@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Sf Pro Display;
+}
+
+@font-face {
+    font-family: Sf Pro Display;
+    src: url("/assets/font/SFPRODISPLAYREGULAR.OTF");
+}
+.wrapper
+{
+    width: 1400px;
+    margin: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+p{
+    font-size: 16px;
+    color: #929292;
+}
+.banner-bg{
+    background-image: url("/assets/images/index-banner-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+
+}
+.negetive-margin{
+    margin-top: -12%;
+}
+.navbar-brand img{
+    width: 30%;
+}
+.large-text1{
+    font-size: 90px;
+}
+.large-text2{
+    font-size: 100px;
+}
+.larger-text{
+    font-size: 120px;
+}
