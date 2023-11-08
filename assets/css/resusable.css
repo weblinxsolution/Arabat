@@ -38,10 +38,30 @@
     position: relative;
     z-index: 10;
 }
-.text-black{
+
+.text-black {
     color: #000 !important;
 }
+
 .text-grey {
     color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+}
+
+.transparent-btn {
+    background: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 8px 20px;
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+.black-btn-white-border {
+    background: #000;
+    border: 1px solid #FFF;
+    padding: 8px 20px;
+    border-radius: 100px;
+    color: #FFF;
     font-size: 14px;
 }

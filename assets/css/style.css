@@ -16,7 +16,10 @@
     padding-left: 4%;
     padding-right: 4%;
 }
-
+.form-control:focus{
+box-shadow: none;
+border: 1px solid #E20000;
+}
 img {
     width: 100%;
 }
@@ -44,21 +47,39 @@ p {
 }
 
 .large-text1 {
-    font-size: 90px;
+    font-size: 80px;
 }
 
 .large-text2 {
-    font-size: 100px;
+    font-size: 103px;
 }
 
 .larger-text {
-    font-size: 120px;
+    font-size: 160px;
 }
 
 .top-logo {
     width: 60px;
 }
 
+.custom-line-height {
+    line-height: 60px;
+}
+
+.on-bottom {
+    position: relative;
+    z-index: -1;
+}
+
+.on-top {
+    position: relative;
+    z-index: 10;
+}
+
+/* Login Signup Otp */
+.sticky-logo{
+    position: fixed;
+}
 .login-heading p {
     font-size: 50px;
 }
@@ -86,6 +107,7 @@ p {
     padding: 4% 14%;
     position: relative;
 }
+
 .login-inputs select {
     border: 1px solid #E20000;
     padding: 4%;
@@ -160,3 +182,5 @@ p {
     width: 6%;
     top: 25%;
 }
+
+/* End */

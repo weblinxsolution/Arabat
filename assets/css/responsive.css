@@ -1,0 +1,29 @@
+@media (max-width:400px) {
+    .message-icon {
+        top: 35%;
+    }
+
+    input::placeholder {
+        font-size: 14px !important;
+    }
+
+    input {
+        font-size: 14px !important;
+    }
+
+    .login-btn button {
+        padding: .5rem 2rem;
+    }
+
+    .or-text::before {
+        width: 80px;
+    }
+
+    .or-text::after {
+        width: 80px;
+    }
+
+    .message-icon1 {
+        top: 35%;
+    }
+}
