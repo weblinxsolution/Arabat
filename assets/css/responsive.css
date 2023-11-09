@@ -1,17 +1,24 @@
 @media (max-width:999px) {
+    .banner-bg {
+        padding-top: 45%;
+        margin-top: -36%;
+    }
 
     .globle-banners {
         padding-top: 50%;
         margin-top: -35%;
     }
+
     .globle-banners1 {
         padding-top: 50%;
         margin-top: -35%;
     }
+
     .globle-banners2 {
         padding-top: 50%;
         margin-top: -35%;
     }
+
     .globle-banners3 {
         padding-top: 50%;
         margin-top: -35%;
@@ -41,22 +48,37 @@
     .middle-sections {
         margin-top: -11rem;
     }
+    .card-truck{
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width:400px) {
-    .navbar-brand{
+    .truck-card-btn button {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .banner-bg {
+        padding-top: 100% !important;
+        margin-top: -92%;
+    }
+    .navbar-brand {
         margin-right: 0;
     }
-    .our-services-text{
+
+    .our-services-text {
         padding-top: 8%;
     }
-    .our-services-img-inner img{
+
+    .our-services-img-inner img {
         width: 70%;
     }
+
     p {
         font-size: 14px !important;
         color: #929292;
     }
+
     .border-3-stroke {
         -webkit-text-stroke: 2px #FE3B00 !important;
     }
@@ -73,14 +95,17 @@
         padding-top: 99% !important;
         margin-top: -95% !important;
     }
+
     .globle-banners1 {
         padding-top: 100% !important;
         margin-top: -95% !important;
     }
+
     .globle-banners2 {
         padding-top: 100% !important;
         margin-top: -95% !important;
     }
+
     .globle-banners3 {
         padding-top: 100% !important;
         margin-top: -95% !important;
@@ -120,9 +145,11 @@
     .larger-text {
         font-size: 63px;
     }
-    .out-line-text{
+
+    .out-line-text {
         -webkit-text-stroke: 1px #FE3B00 !important;
     }
+
     .large-text2 {
         font-size: 38px;
     }

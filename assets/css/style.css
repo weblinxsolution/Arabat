@@ -392,6 +392,9 @@ h6 {
 .quick-links ul {
     padding-left: 0;
 }
+.active{
+    color: #E20000 !important;
+}
 
 .quick-links ul li {
     list-style: none;
@@ -409,7 +412,7 @@ h6 {
 
 .globle-banners {
     background-image: url("/assets/images/about-bg.png");
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     padding-top: 35%;
     background-size: cover;
     background-repeat: no-repeat;
