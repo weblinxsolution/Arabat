@@ -49,6 +49,19 @@
     background: #FE3B00;
     top: -3px;
 }
+.left-line1{
+    position: relative;
+    display: block;
+    width: 48px;
+}
+.left-line1::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 48px;
+    background: #FE3B00;
+    top: -3px;
+}
 
 /* textred */
 .text-red {
@@ -110,5 +123,9 @@
     padding-top: 5%;
 }
 .border-3-stroke{
-    -webkit-text-stroke: 2px #FE3B00 !important;
+    -webkit-text-stroke: 3px #FE3B00;
+}
+.defult-size{
+    font-size: 50px;
+    color: #0D0C0C;
 }

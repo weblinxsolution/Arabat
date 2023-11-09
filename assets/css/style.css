@@ -403,10 +403,132 @@ h6 {
     margin-top: -8rem;
 }
 
+.globle-banners1 {
+    background-image: url("/assets/images/carriers-bg.png");
+    padding-bottom: 2%;
+    padding-top: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -8rem;
+}
+.globle-banners2 {
+    background-image: url("/assets/images/brokers-bg.png");
+    padding-bottom: 2%;
+    padding-top: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -8rem;
+}
+.globle-banners3 {
+    background-image: url("/assets/images/shipper-bg.png");
+    padding-bottom: 2%;
+    padding-top: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -8rem;
+}
+
 .aligment-1 {
     transform: translateY(100px);
 }
 
 .aligment-2 {
     transform: translateY(200px);
+}
+
+.inner-img-pad {
+    padding-right: 2rem;
+}
+
+.orange-bg {
+    background-color: #FE3B00;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-bg p {
+    font-size: 25px !important;
+    font-weight: 600;
+}
+
+.pakage-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #FFF;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10);
+}
+
+.book-btn {
+    width: 100%;
+}
+
+.book-1btn {
+    width: 150px;
+    padding: 8px 0;
+    margin-top: 1rem;
+}
+
+.book-btn button {
+    background-color: transparent;
+    border: 1px solid #E20000;
+    padding: 18px 0;
+    width: 100%;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+.booking-form {
+    background-image: url("/assets/images/booking-form-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.register-now {
+    background-color: #FFFDFD;
+    padding: 3rem 2rem;
+    border-radius: 25px;
+}
+
+.rehister-now-input input {
+    background-color: #FFF;
+    border: none;
+    border-radius: 100px;
+}
+
+.register-heading {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.register-heading h5 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.rehister-now-input {
+    margin-top: 15%;
+}
+
+.sign-in-btn button {
+    background: #FE3B00;
+    border-radius: 100px;
+    color: #FFF;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    padding: 15px 0;
+}
+.loction-input{
+    position: relative;
+}
+.loaction-svg{
+    position: absolute;
+    right: 15px;
+    top: 7px;
 }
