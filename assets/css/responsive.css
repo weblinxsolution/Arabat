@@ -44,6 +44,19 @@
 }
 
 @media (max-width:400px) {
+    .navbar-brand{
+        margin-right: 0;
+    }
+    .our-services-text{
+        padding-top: 8%;
+    }
+    .our-services-img-inner img{
+        width: 70%;
+    }
+    p {
+        font-size: 14px !important;
+        color: #929292;
+    }
     .border-3-stroke {
         -webkit-text-stroke: 2px #FE3B00 !important;
     }
@@ -91,10 +104,6 @@
         width: 50%;
     }
 
-    .wrapper {
-        padding-left: 1%;
-        padding-right: 1%;
-    }
 
     .banner-bg {
         padding-top: 45%;
@@ -111,9 +120,11 @@
     .larger-text {
         font-size: 63px;
     }
-
+    .out-line-text{
+        -webkit-text-stroke: 1px #FE3B00 !important;
+    }
     .large-text2 {
-        font-size: 30px;
+        font-size: 38px;
     }
 
     .large-text1 {
