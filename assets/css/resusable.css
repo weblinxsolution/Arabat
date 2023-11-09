@@ -4,12 +4,14 @@
     text-fill-color: transparent;
     text-stroke: 2px #D93F21;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #D93F21;
+    -webkit-text-stroke: 2px #FE3B00;
     font-weight: 400 !important;
     text-transform: uppercase;
     -moz-text-fill-color: transparent;
 }
-
+.border-3-stroke{
+    -webkit-text-stroke: 3px #FE3B00 !important;
+}
 .out-line-text-2 {
     font-family: Sf Pro Display;
     text-fill-color: transparent;
@@ -20,7 +22,12 @@
     text-transform: uppercase;
     -moz-text-fill-color: transparent;
 }
-
+.text-big-slider{
+    font-size: 45px;
+}
+.extra-bottom-space{
+    padding-bottom: 15% !important;
+}
 /* outline text end */
 .text-white {
     font-weight: unset !important;
