@@ -1,4 +1,63 @@
+@media (max-width:991px) {
+
+    .quick-links ul li {
+        font-size: 12px;
+    }
+
+    .arrow-1 {
+        left: 54%;
+        /* margin-bottom: 1rem; */
+    }
+
+    .arrow-1 {
+        left: 45%;
+    }
+
+    .pause-btn {
+        width: 50%;
+    }
+
+    .middle-sections {
+        margin-top: -11rem;
+    }
+}
+
 @media (max-width:400px) {
+    .cnter-mobile{
+        display: flex;
+        justify-content: center;
+    }
+    .cnter-mobile img{
+        width: 50%;
+    }
+    .wrapper{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .banner-bg {
+        padding-top: 45%;
+    }
+
+    .middle-sections {
+        margin-top: -4rem;
+    }
+
+    .custom-line-height {
+        line-height: 30px;
+    }
+
+    .larger-text {
+        font-size: 63px;
+    }
+
+    .large-text2 {
+        font-size: 30px;
+    }
+
+    .large-text1 {
+        font-size: 45px;
+    }
+
     .message-icon {
         top: 35%;
     }

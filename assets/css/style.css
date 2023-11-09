@@ -379,11 +379,7 @@ h6 {
 .quick-links ul li a {
     color: #FFF;
 }
-.footer-aligned{
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-}
+
 .copy-right-bg{
     background-color: #000;
     padding: 1%;
