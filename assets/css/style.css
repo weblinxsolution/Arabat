@@ -53,11 +53,13 @@ h2 {
     text-transform: uppercase !important;
     font-family: Sf Pro Display-Bold;
 }
-h3{
+
+h3 {
     font-family: Sf Pro Display-Bold;
 
 }
-h5{
+
+h5 {
     font-family: Sf Pro Display-Bold;
 
 }
@@ -284,9 +286,13 @@ h6 {
     padding-bottom: 5%;
 }
 
+.book-btn {
+    margin-top: 2rem;
+}
+
 .advantages-1 {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .we-work {
@@ -392,7 +398,8 @@ h6 {
 .quick-links ul {
     padding-left: 0;
 }
-.active{
+
+.active {
     color: #E20000 !important;
 }
 
@@ -427,6 +434,7 @@ h6 {
     background-repeat: no-repeat;
     margin-top: -8rem;
 }
+
 .globle-banners2 {
     background-image: url("/assets/images/brokers-bg.png");
     padding-bottom: 2%;
@@ -435,6 +443,7 @@ h6 {
     background-repeat: no-repeat;
     margin-top: -8rem;
 }
+
 .globle-banners3 {
     background-image: url("/assets/images/shipper-bg.png");
     padding-bottom: 2%;
@@ -540,10 +549,12 @@ h6 {
     border: none;
     padding: 15px 0;
 }
-.loction-input{
+
+.loction-input {
     position: relative;
 }
-.loaction-svg{
+
+.loaction-svg {
     position: absolute;
     right: 15px;
     top: 7px;
