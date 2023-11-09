@@ -1,4 +1,13 @@
-@media (max-width:991px) {
+@media (max-width:999px) {
+
+    .globle-banners {
+        padding-top: 50%;
+        margin-top: -35%;
+    }
+
+    .ms-3 {
+        margin-left: 0 !important;
+    }
 
     .quick-links ul li {
         font-size: 12px;
@@ -23,6 +32,32 @@
 }
 
 @media (max-width:400px) {
+    .border-3-stroke {
+        -webkit-text-stroke: 2px #FE3B00 !important;
+    }
+
+    .aligment-1 {
+        transform: translateY(0);
+    }
+
+    .aligment-2 {
+        transform: translateY(0);
+    }
+
+    .globle-banners {
+        padding-top: 99% !important;
+        margin-top: -95% !important;
+    }
+
+    .globle-banners {
+        padding-top: 50%;
+        margin-top: -35%;
+    }
+
+    .text-big {
+        font-size: 60px;
+    }
+
     .middle-aligment {
         transform: translateY(0);
     }
