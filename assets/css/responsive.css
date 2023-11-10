@@ -1,27 +1,41 @@
 @media (max-width:999px) {
+    .navbar-collapse{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .navbar-dark{
+        background-color: #00000085 !important;
+    }
+    .new-menu-on-mobile{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        left: 0;
+    }
     .banner-bg {
-        padding-top: 45%;
-        margin-top: -36%;
+        padding-top: 35%;
+        /* margin-top: -36%; */
     }
 
     .globle-banners {
         padding-top: 50%;
-        margin-top: -35%;
+        /* margin-top: -35%; */
     }
 
     .globle-banners1 {
         padding-top: 50%;
-        margin-top: -35%;
+        /* margin-top: -35%; */
     }
 
     .globle-banners2 {
         padding-top: 50%;
-        margin-top: -35%;
+        /* margin-top: -35%; */
     }
 
     .globle-banners3 {
         padding-top: 50%;
-        margin-top: -35%;
+        /* margin-top: -35%; */
     }
 
     .ms-3 {
@@ -97,8 +111,8 @@
     }
 
     .banner-bg {
-        padding-top: 100% !important;
-        margin-top: -92%;
+        padding-top: 75% !important;
+        /* margin-top: -92%; */
     }
 
     .navbar-brand {
