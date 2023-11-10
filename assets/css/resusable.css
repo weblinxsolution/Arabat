@@ -68,6 +68,7 @@
 /* outline text end */
 .text-white {
     font-weight: unset !important;
+  /* opacity: 0.8 */
 }
 
 .inner-white button {
@@ -145,6 +146,7 @@
     font-size: 14px;
     transition: .5s;
 }
+
 .transparent-btn:hover {
     background: #000;
     color: #FFF;
@@ -164,6 +166,7 @@
     transition: .5s;
 
 }
+
 .black-btn-white-border:hover {
     background: transparent;
     border: 1px solid #FFF;
@@ -182,6 +185,7 @@
     padding: 10px 20px;
     transition: .5s;
 }
+
 .truck-card-btn button:hover {
     background-color: #FE3B00;
     color: #FFF;
@@ -209,4 +213,13 @@
     width: 45px;
     border-radius: 100%;
     object-fit: contain;
+}
+
+.book-btn button {
+    transition: .5s;
+}
+
+.book-btn button:hover {
+    background: #FE3B00;
+    color: #FFF;
 }
