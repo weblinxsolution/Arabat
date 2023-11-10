@@ -14,3 +14,34 @@ $(document).ready(function(){
         return false;
     });
 });
+function toggleDropdown() {
+    var dropdown = document.getElementById("myDropdown");
+    dropdown.style.display = (dropdown.style.display === 'block') ? 'none' : 'block';
+}
+
+function logout() {
+    // Add your logout logic here
+    alert("Logout clicked. Perform logout actions.");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.style.display === 'block') {
+                openDropdown.style.display = 'none';
+            }
+        }
+    }
+}
+function toggleNotification() {
+    var notificationCard = document.getElementById("notificationCard");
+    if (notificationCard.style.display === "none" || notificationCard.style.display === "") {
+        notificationCard.style.display = "block";
+    } else {
+        notificationCard.style.display = "none";
+    }
+}

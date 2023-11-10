@@ -1,3 +1,39 @@
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
 /* Out-line Text */
 .out-line-text {
     font-family: Sf Pro Display;
@@ -20,20 +56,25 @@
     text-transform: uppercase;
     -moz-text-fill-color: transparent;
 }
-.text-big-slider{
+
+.text-big-slider {
     font-size: 45px;
 }
-.extra-bottom-space{
+
+.extra-bottom-space {
     padding-bottom: 15% !important;
 }
+
 /* outline text end */
 .text-white {
     font-weight: unset !important;
 }
-.inner-white button{
- color: #FFF !important;
- padding: 10px 30px !important;
+
+.inner-white button {
+    color: #FFF !important;
+    padding: 10px 30px !important;
 }
+
 /* Left-red-line-style */
 .left-line {
     position: relative;
@@ -49,11 +90,13 @@
     background: #FE3B00;
     top: -3px;
 }
-.left-line1{
+
+.left-line1 {
     position: relative;
     display: block;
     width: 48px;
 }
+
 .left-line1::before {
     content: '';
     position: absolute;
@@ -67,8 +110,9 @@
 .text-red {
     color: #E20000;
 }
+
 /* text-orange */
-.text-orange{
+.text-orange {
     color: #FE3B00;
 }
 
@@ -122,10 +166,19 @@
 .spacing {
     padding-top: 5%;
 }
-.border-3-stroke{
+
+.border-3-stroke {
     -webkit-text-stroke: 3px #FE3B00;
 }
-.defult-size{
+
+.defult-size {
     font-size: 50px;
     color: #0D0C0C;
+}
+
+/* dashboard */
+.user-profile {
+    width: 45px;
+    border-radius: 100%;
+    object-fit: contain;
 }

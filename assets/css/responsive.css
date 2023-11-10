@@ -52,9 +52,21 @@
     .card-truck {
         margin-bottom: 2rem;
     }
+    .table-truck table{
+        width: max-content;
+    }
+    .notification-card{
+        left: 0;
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width:400px) {
+    .add-truck-btn button {
+        padding: 10px 0;
+        width: 100px;
+        font-size: 14px;
+    }
     #back-to-top-btn {
         bottom: 20px;
         right: 8px;
