@@ -48,27 +48,42 @@
     .middle-sections {
         margin-top: -11rem;
     }
-    .card-truck{
+
+    .card-truck {
         margin-bottom: 2rem;
     }
 }
 
 @media (max-width:400px) {
-    .text-big-slider{
+    #back-to-top-btn {
+        bottom: 20px;
+        right: 8px;
+        width: 45px;
+    }
+
+    #back-to-top-btn img {
+        width: 100%;
+    }
+
+    .text-big-slider {
         font-size: 30px !important;
     }
-    .book-btn button{
+
+    .book-btn button {
         padding: 12px 0;
         margin-bottom: 1rem;
     }
+
     .truck-card-btn button {
         font-size: 14px;
         padding: 5px 15px;
     }
+
     .banner-bg {
         padding-top: 100% !important;
         margin-top: -92%;
     }
+
     .navbar-brand {
         margin-right: 0;
     }

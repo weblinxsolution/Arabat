@@ -559,3 +559,17 @@ h6 {
     right: 15px;
     top: 7px;
 }
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+}
+#back-to-top-btn img{
+    width: 50%;
+} 
