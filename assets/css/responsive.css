@@ -76,6 +76,9 @@
 }
 
 @media (max-width:400px) {
+    .defult-size{
+        font-size: 40px !important;
+    }
     .on-profile img{
         width:50%;
         margin: auto;
