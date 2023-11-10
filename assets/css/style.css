@@ -583,6 +583,8 @@ h6 {
     padding-right: 20%;
     position: relative;
     overflow: hidden;
+    position: sticky;
+    top: 0;
 }
 
 .notification-card {
@@ -726,6 +728,7 @@ h6 {
     background: #FFF;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
     padding: 1.5rem;
+    height: max-content;
 }
 
 .select-all:focus {
@@ -780,4 +783,36 @@ h6 {
     background-color: #FE3B00;
     border: 1px solid #FE3B00;
     color: #FFF;
+}
+
+
+
+.small-width {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.edit-profile-input input {
+    border: none;
+    border-radius: 10px;
+    background: #ECECEC;
+    padding: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+.truck-card-btn-2 button {
+    width: 150px !important;
+    padding: .8rem 0 !important;
+}
+
+.on-profile img {
+    width: 50%;
 }
