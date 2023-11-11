@@ -715,6 +715,18 @@ h6 {
     padding-right: 8%;
 }
 
+.add-truck-btn a {
+    border-radius: 100px;
+    background: #FE3B00;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 155px;
+    color: #FFF;
+    gap: 10px;
+}
 .add-truck-btn button {
     border-radius: 100px;
     background: #FE3B00;
@@ -727,7 +739,6 @@ h6 {
     color: #FFF;
     gap: 10px;
 }
-
 .truck-data-table {
     border-radius: 10px;
     background: #FFF;
@@ -914,7 +925,7 @@ td {
 
 .detail-row {
     height: 375px;
-    /* background: red; */
+    background: #FFF;
     width: 100%;
     position: relative;
     display: none;
@@ -927,6 +938,7 @@ td {
     left: 0;
     height: 100%;
     width: 100%;
+    background: #FFF;
     /* background: red; */
 }
 
