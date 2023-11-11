@@ -911,14 +911,16 @@ td {
     padding: 1rem 2rem;
     border-bottom: 1px solid #FE3B00;
 }
-.detail-row  {
-    height: 300px;
+
+.detail-row {
+    height: 375px;
     /* background: red; */
     width: 100%;
     position: relative;
     display: none;
 }
-.detail-row  td{
+
+.detail-row td {
     padding: 20px !important;
     position: absolute;
     top: 0;
@@ -928,26 +930,64 @@ td {
     /* background: red; */
 }
 
-.table-detail-trigger{
+.table-detail-trigger {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 97%;
     height: 100%;
     z-index: 100;
 }
-.td-detail-ul ul{
+
+.td-detail-ul ul {
     padding: 0px;
     list-style-type: none;
 }
-.td-detail-ul ul li{
+
+.td-detail-ul ul li {
     font-size: small;
     color: #8D8D8D;
     display: flex;
     align-items: center;
 }
-.td-detail-ul ul li span{
+
+.td-detail-ul ul li span {
     width: 100px;
     display: block;
     font-weight: 400;
+}
+
+.company-p p {
+    display: flex;
+    align-items: center;
+}
+
+.compp p {
+    font-size: 14px;
+}
+
+.company-p p span {
+    display: block;
+    width: 150px;
+}
+
+.btn-markas {
+    border-radius: 100px;
+    border: 0.5px solid #FE3B00;
+    background: #FFF;
+    padding: 15px;
+    width: 100%;
+    font-size: medium;
+    font-weight: 800;
+    transition: .4s all;
+}
+.btn-markas:hover{
+    background-color: #FE3B00;
+    color: #FFF;
+}
+
+@media(max-width: 1400px){
+    .table-truck table{
+        width: max-content;
+    }
 }
