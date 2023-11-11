@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arabat career-Search history</title>
+
+<!-- SLICK SLIDER -->
+<link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" />
+
+<!-- FONT AWSOME  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- REMIX ICON  -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+<!-- Bootstrap css link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+<!-- CUSTOM CSS START -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/resusable.css">
+<!-- CUSTOM CSS END -->
+
+<body>
+    <div class="row mx-0">
+        <!-- On Mobile Canvas -->
+        <div class="d-lg-none d-block">
+            <div class="offcanvas offcanvas-start bg-red" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <section class="main-menu-left ">
+                        <div class="wrapper">
+                            <div class="dashboard-logo pt-5">
+                                <img src="./assets/images/dashboard-logo.png" alt="">
+                            </div>
+                            <div class="all-dashboard-menus">
+                                <div class="menu-1 d-flex align-items-center pt-3">
+                                    <div class="icon-width">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                            viewBox="0 0 26 26" fill="none">
+                                            <path
+                                                d="M14.5 13C14.5 12.1716 15.1716 11.5 16 11.5H23.5C24.3284 11.5 25 12.1716 25 13V23.5C25 24.3284 24.3284 25 23.5 25H16C15.1716 25 14.5 24.3284 14.5 23.5V13Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round" />
+                                            <path
+                                                d="M1 2.5C1 1.67158 1.67158 1 2.5 1H8.5C9.32842 1 10 1.67158 10 2.5V13C10 13.8284 9.32842 14.5 8.5 14.5H2.5C1.67158 14.5 1 13.8284 1 13V2.5Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round" />
+                                            <path
+                                                d="M1 20.5C1 19.6716 1.67158 19 2.5 19H8.5C9.32842 19 10 19.6716 10 20.5V23.5C10 24.3284 9.32842 25 8.5 25H2.5C1.67158 25 1 24.3284 1 23.5V20.5Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round" />
+                                            <path
+                                                d="M14.5 2.5C14.5 1.67158 15.1716 1 16 1H23.5C24.3284 1 25 1.67158 25 2.5V5.5C25 6.32842 24.3284 7 23.5 7H16C15.1716 7 14.5 6.32842 14.5 5.5V2.5Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white">
+                                            Dashboard
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="menu-2 d-flex align-items-center pt-4">
+                                    <div class="icon-width">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                            viewBox="0 0 26 26" fill="none">
+                                            <path
+                                                d="M18.0607 18.0815L25 25M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white">
+                                            Search Load
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="menu-3 d-flex align-items-center pt-4">
+                                    <div class="icon-width">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                                            viewBox="0 0 26 26" fill="none">
+                                            <path
+                                                d="M18.0607 18.0815L25 25M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z"
+                                                stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white">
+                                            My Trucks
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="menu-4 d-flex align-items-center pt-4">
+                                    <div class="icon-width">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20"
+                                            viewBox="0 0 25 20" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8.47237 15.5753C8.4802 16.6741 7.84087 17.6691 6.85333 18.0953C5.86579 18.5214 4.72519 18.2942 3.96485 17.52C3.20452 16.746 2.9747 15.5778 3.38287 14.5619C3.79103 13.5458 4.75651 12.8828 5.82786 12.8828C6.52668 12.8802 7.19787 13.1624 7.69382 13.6673C8.18976 14.1722 8.46981 14.8586 8.47237 15.5753Z"
+                                                fill="#FE3B00" stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M21.072 15.5753C21.0798 16.6741 20.4405 17.6691 19.4529 18.0953C18.4654 18.5214 17.3248 18.2942 16.5645 17.52C15.8042 16.746 15.5743 15.5778 15.9825 14.5619C16.3906 13.5458 17.3561 12.8828 18.4274 12.8828C19.1263 12.8802 19.7975 13.1624 20.2933 13.6673C20.7894 14.1722 21.0694 14.8586 21.072 15.5753Z"
+                                                fill="#FE3B00" stroke="white" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M15.4725 16.5043C15.9855 16.5043 16.4014 16.0885 16.4014 15.5754C16.4014 15.0624 15.9855 14.6465 15.4725 14.6465V16.5043ZM8.46878 14.6465C7.95579 14.6465 7.53991 15.0624 7.53991 15.5754C7.53991 16.0885 7.95579 16.5043 8.46878 16.5043V14.6465ZM14.5436 15.5754C14.5436 16.0885 14.9595 16.5043 15.4725 16.5043C15.9855 16.5043 16.4014 16.0885 16.4014 15.5754H14.5436ZM16.4014 9.05221C16.4014 8.53922 15.9855 8.12333 15.4725 8.12333C14.9595 8.12333 14.5436 8.53922 14.5436 9.05221H16.4014ZM15.4725 14.6465C14.9595 14.6465 14.5436 15.0624 14.5436 15.5754C14.5436 16.0885 14.9595 16.5043 15.4725 16.5043V14.6465ZM15.7816 16.5043C16.2946 16.5043 16.7105 16.0885 16.7105 15.5754C16.7105 15.0624 16.2946 14.6465 15.7816 14.6465V16.5043ZM21.0666 14.6466C20.5536 14.6489 20.1396 15.0665 20.1418 15.5795C20.144 16.0925 20.5618 16.5066 21.0747 16.5043L21.0666 14.6466ZM23.8721 12.6761L24.801 12.6718C24.8008 12.6183 24.7959 12.5651 24.7865 12.5125L23.8721 12.6761ZM24.1381 8.8886C24.0476 8.38366 23.5651 8.04753 23.0601 8.13794C22.5551 8.22823 22.219 8.71087 22.3094 9.21593L24.1381 8.8886ZM15.4713 2.32473C14.9583 2.32473 14.5424 2.74059 14.5424 3.2536C14.5424 3.7666 14.9583 4.18248 15.4713 4.18248V2.32473ZM19.9042 3.2536V4.18248C19.9104 4.18248 19.9167 4.18242 19.9231 4.18228L19.9042 3.2536ZM22.7045 6.15294L21.776 6.12648C21.7741 6.19008 21.7788 6.25369 21.7901 6.31631L22.7045 6.15294ZM22.308 9.21569C22.3983 9.72062 22.8809 10.0569 23.3859 9.96671C23.8909 9.87643 24.2282 9.39366 24.1381 8.8886L22.308 9.21569ZM16.3989 3.2536C16.3989 2.74059 15.9844 2.32473 15.4713 2.32473C14.9583 2.32473 14.5424 2.74059 14.5424 3.2536H16.3989ZM14.5412 9.05221C14.5412 9.56532 14.957 9.98108 15.47 9.98108C15.9831 9.98108 16.3989 9.56532 16.3989 9.05221H14.5412ZM14.5424 3.2536C14.5424 3.7666 14.9583 4.18248 15.4713 4.18248C15.9844 4.18248 16.3989 3.7666 16.3989 3.2536H14.5424ZM15.47 2.2628H16.399L16.3989 2.25614L15.47 2.2628ZM14.1514 0.928938V1.85783L14.1576 1.85779L14.1514 0.928938ZM2.25116 0.928938L2.24234 1.85781H2.25116V0.928938ZM0.928913 2.26033L3.72055e-05 2.25202V2.26033H0.928913ZM0.928913 14.2428H0L7.4411e-05 14.2512L0.928913 14.2428ZM2.25116 15.5742V14.6453L2.24234 14.6454L2.25116 15.5742ZM3.18339 16.503C3.69639 16.503 4.11227 16.0873 4.11227 15.5742C4.11227 15.0612 3.69639 14.6453 3.18339 14.6453V16.503ZM15.4725 8.12333C14.9595 8.12333 14.5436 8.53922 14.5436 9.05221C14.5436 9.56532 14.9595 9.98108 15.4725 9.98108V8.12333ZM23.2249 9.98108C23.7379 9.98108 24.1538 9.56532 24.1538 9.05221C24.1538 8.53922 23.7379 8.12333 23.2249 8.12333V9.98108ZM15.4725 14.6465H8.46878V16.5043H15.4725V14.6465ZM16.4014 15.5754V9.05221H14.5436V15.5754H16.4014ZM15.4725 16.5043H15.7816V14.6465H15.4725V16.5043ZM21.0747 16.5043C22.0753 16.4999 23.0281 16.0878 23.725 15.3665L22.389 14.0756C22.0351 14.4419 21.5589 14.6444 21.0666 14.6466L21.0747 16.5043ZM23.725 15.3665C24.4212 14.646 24.8056 13.6763 24.801 12.6718L22.9433 12.6804C22.9457 13.207 22.7437 13.7085 22.389 14.0756L23.725 15.3665ZM24.7865 12.5125L24.1381 8.8886L22.3094 9.21593L22.9578 12.8398L24.7865 12.5125ZM15.4713 4.18248H19.9042V2.32473H15.4713V4.18248ZM19.9231 4.18228C20.4125 4.17236 20.8897 4.36832 21.2421 4.73303L22.5783 3.44243C21.8722 2.71135 20.8994 2.30436 19.8853 2.32491L19.9231 4.18228ZM21.2421 4.73303C21.5952 5.09865 21.7908 5.60193 21.776 6.12648L23.633 6.17938C23.662 5.16217 23.2835 4.1726 22.5783 3.44243L21.2421 4.73303ZM21.7901 6.31631L22.308 9.21569L24.1381 8.8886L23.6189 5.98955L21.7901 6.31631ZM14.5424 3.2536L14.5412 9.05221H16.3989V3.2536H14.5424ZM16.3989 3.2536L16.399 2.2628H14.5412L14.5424 3.2536H16.3989ZM16.3989 2.25614C16.3901 1.02396 15.4033 -0.00828505 14.1453 7.48358e-05L14.1576 1.85779C14.346 1.85654 14.5394 2.0183 14.5413 2.26945L16.3989 2.25614ZM14.1514 6.24339e-05H2.25116V1.85781L14.1514 1.85783V6.24339e-05ZM2.25999 9.96394e-05C1.65844 -0.00560985 1.0841 0.234288 0.662103 0.659193L1.98025 1.96829C2.05422 1.89382 2.14892 1.85693 2.24234 1.85781L2.25999 9.96394e-05ZM0.662103 0.659193C0.240913 1.08329 0.00536276 1.65673 3.72055e-05 2.25202L1.85775 2.26862C1.8588 2.15112 1.9055 2.04356 1.98025 1.96829L0.662103 0.659193ZM3.72055e-05 2.26033L0 14.2428H1.85779V2.26033H3.72055e-05ZM7.4411e-05 14.2512C0.00539997 14.8464 0.240913 15.4198 0.662103 15.8439L1.98025 14.5348C1.9055 14.4596 1.8588 14.352 1.85775 14.2345L7.4411e-05 14.2512ZM0.662103 15.8439C1.0841 16.2688 1.65844 16.5087 2.25999 16.503L2.24234 14.6454C2.14892 14.6463 2.05422 14.6094 1.98025 14.5348L0.662103 15.8439ZM2.25116 16.503H3.18339V14.6453H2.25116V16.503ZM15.4725 9.98108H23.2249V8.12333H15.4725V9.98108Z"
+                                                fill="white" />
+                                            <path d="M6 7H12M9 4V10" stroke="white" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white">
+                                            Post A Trucks
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="menu-4 d-flex align-items-center pt-4">
+                                    <div class="icon-width">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M21.3601 9.816C20.9881 6 18.7321 0 11.7601 0C4.78806 0 2.53206 6 2.16006 9.816C0.855071 10.3113 -0.00571744 11.5642 2.85921e-05 12.96V14.64C2.85921e-05 16.4957 1.50438 18 3.36006 18C5.21573 18 6.72006 16.4957 6.72006 14.64V12.96C6.71402 11.5943 5.88485 10.3672 4.62006 9.852C4.86006 7.644 6.03606 2.4 11.7601 2.4C17.4841 2.4 18.6481 7.644 18.8881 9.852C17.6258 10.3683 16.8008 11.5963 16.8001 12.96V14.64C16.8053 15.93 17.546 17.1039 18.7081 17.664C18.2041 18.612 16.9201 19.896 13.7641 20.28C13.1332 19.322 11.9126 18.9444 10.851 19.3787C9.78934 19.813 9.1834 20.9378 9.40479 22.0632C9.62618 23.1887 10.613 24 11.7601 24C12.6665 23.995 13.4927 23.4797 13.8961 22.668C19.0441 22.08 20.6881 19.428 21.2041 17.868C22.6 17.4158 23.5389 16.1073 23.5201 14.64V12.96C23.5258 11.5642 22.665 10.3113 21.3601 9.816ZM4.32006 14.64C4.32006 15.1702 3.89025 15.6 3.36006 15.6C2.82986 15.6 2.40006 15.1702 2.40006 14.64V12.96C2.40006 12.617 2.58303 12.3001 2.88006 12.1286C3.17708 11.9571 3.54303 11.9571 3.84006 12.1286C4.13708 12.3001 4.32006 12.617 4.32006 12.96V14.64ZM19.2001 12.96C19.2001 12.4298 19.6299 12 20.1601 12C20.6903 12 21.1201 12.4298 21.1201 12.96V14.64C21.1201 15.1702 20.6903 15.6 20.1601 15.6C19.6299 15.6 19.2001 15.1702 19.2001 14.64V12.96Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white">
+                                            Live Support
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+        <!-- Main Menu Left -->
+        <div class="col-lg-2 px-0 d-lg-block d-none">
+            <section class="main-menu-left vh-100">
+                <div class="wrapper">
+                    <div class="dashboard-logo pt-5">
+                        <img src="./assets/images/dashboard-logo.png" alt="">
+                    </div>
+                    <div class="all-dashboard-menus">
+                        <div class="menu-1 d-flex align-items-center pt-3">
+                            <div class="icon-width">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
+                                    fill="none">
+                                    <path
+                                        d="M14.5 13C14.5 12.1716 15.1716 11.5 16 11.5H23.5C24.3284 11.5 25 12.1716 25 13V23.5C25 24.3284 24.3284 25 23.5 25H16C15.1716 25 14.5 24.3284 14.5 23.5V13Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round" />
+                                    <path
+                                        d="M1 2.5C1 1.67158 1.67158 1 2.5 1H8.5C9.32842 1 10 1.67158 10 2.5V13C10 13.8284 9.32842 14.5 8.5 14.5H2.5C1.67158 14.5 1 13.8284 1 13V2.5Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round" />
+                                    <path
+                                        d="M1 20.5C1 19.6716 1.67158 19 2.5 19H8.5C9.32842 19 10 19.6716 10 20.5V23.5C10 24.3284 9.32842 25 8.5 25H2.5C1.67158 25 1 24.3284 1 23.5V20.5Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round" />
+                                    <path
+                                        d="M14.5 2.5C14.5 1.67158 15.1716 1 16 1H23.5C24.3284 1 25 1.67158 25 2.5V5.5C25 6.32842 24.3284 7 23.5 7H16C15.1716 7 14.5 6.32842 14.5 5.5V2.5Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="m-0 text-white">
+                                    Dashboard
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menu-2 d-flex align-items-center pt-4">
+                            <div class="icon-width">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
+                                    fill="none">
+                                    <path
+                                        d="M18.0607 18.0815L25 25M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="m-0 text-white">
+                                    Search Load
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menu-3 d-flex align-items-center pt-4">
+                            <div class="icon-width">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
+                                    fill="none">
+                                    <path
+                                        d="M18.0607 18.0815L25 25M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="m-0 text-white">
+                                    My Trucks
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menu-4 d-flex align-items-center pt-4">
+                            <div class="icon-width">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 25 20"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.47237 15.5753C8.4802 16.6741 7.84087 17.6691 6.85333 18.0953C5.86579 18.5214 4.72519 18.2942 3.96485 17.52C3.20452 16.746 2.9747 15.5778 3.38287 14.5619C3.79103 13.5458 4.75651 12.8828 5.82786 12.8828C6.52668 12.8802 7.19787 13.1624 7.69382 13.6673C8.18976 14.1722 8.46981 14.8586 8.47237 15.5753Z"
+                                        fill="#FE3B00" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.072 15.5753C21.0798 16.6741 20.4405 17.6691 19.4529 18.0953C18.4654 18.5214 17.3248 18.2942 16.5645 17.52C15.8042 16.746 15.5743 15.5778 15.9825 14.5619C16.3906 13.5458 17.3561 12.8828 18.4274 12.8828C19.1263 12.8802 19.7975 13.1624 20.2933 13.6673C20.7894 14.1722 21.0694 14.8586 21.072 15.5753Z"
+                                        fill="#FE3B00" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M15.4725 16.5043C15.9855 16.5043 16.4014 16.0885 16.4014 15.5754C16.4014 15.0624 15.9855 14.6465 15.4725 14.6465V16.5043ZM8.46878 14.6465C7.95579 14.6465 7.53991 15.0624 7.53991 15.5754C7.53991 16.0885 7.95579 16.5043 8.46878 16.5043V14.6465ZM14.5436 15.5754C14.5436 16.0885 14.9595 16.5043 15.4725 16.5043C15.9855 16.5043 16.4014 16.0885 16.4014 15.5754H14.5436ZM16.4014 9.05221C16.4014 8.53922 15.9855 8.12333 15.4725 8.12333C14.9595 8.12333 14.5436 8.53922 14.5436 9.05221H16.4014ZM15.4725 14.6465C14.9595 14.6465 14.5436 15.0624 14.5436 15.5754C14.5436 16.0885 14.9595 16.5043 15.4725 16.5043V14.6465ZM15.7816 16.5043C16.2946 16.5043 16.7105 16.0885 16.7105 15.5754C16.7105 15.0624 16.2946 14.6465 15.7816 14.6465V16.5043ZM21.0666 14.6466C20.5536 14.6489 20.1396 15.0665 20.1418 15.5795C20.144 16.0925 20.5618 16.5066 21.0747 16.5043L21.0666 14.6466ZM23.8721 12.6761L24.801 12.6718C24.8008 12.6183 24.7959 12.5651 24.7865 12.5125L23.8721 12.6761ZM24.1381 8.8886C24.0476 8.38366 23.5651 8.04753 23.0601 8.13794C22.5551 8.22823 22.219 8.71087 22.3094 9.21593L24.1381 8.8886ZM15.4713 2.32473C14.9583 2.32473 14.5424 2.74059 14.5424 3.2536C14.5424 3.7666 14.9583 4.18248 15.4713 4.18248V2.32473ZM19.9042 3.2536V4.18248C19.9104 4.18248 19.9167 4.18242 19.9231 4.18228L19.9042 3.2536ZM22.7045 6.15294L21.776 6.12648C21.7741 6.19008 21.7788 6.25369 21.7901 6.31631L22.7045 6.15294ZM22.308 9.21569C22.3983 9.72062 22.8809 10.0569 23.3859 9.96671C23.8909 9.87643 24.2282 9.39366 24.1381 8.8886L22.308 9.21569ZM16.3989 3.2536C16.3989 2.74059 15.9844 2.32473 15.4713 2.32473C14.9583 2.32473 14.5424 2.74059 14.5424 3.2536H16.3989ZM14.5412 9.05221C14.5412 9.56532 14.957 9.98108 15.47 9.98108C15.9831 9.98108 16.3989 9.56532 16.3989 9.05221H14.5412ZM14.5424 3.2536C14.5424 3.7666 14.9583 4.18248 15.4713 4.18248C15.9844 4.18248 16.3989 3.7666 16.3989 3.2536H14.5424ZM15.47 2.2628H16.399L16.3989 2.25614L15.47 2.2628ZM14.1514 0.928938V1.85783L14.1576 1.85779L14.1514 0.928938ZM2.25116 0.928938L2.24234 1.85781H2.25116V0.928938ZM0.928913 2.26033L3.72055e-05 2.25202V2.26033H0.928913ZM0.928913 14.2428H0L7.4411e-05 14.2512L0.928913 14.2428ZM2.25116 15.5742V14.6453L2.24234 14.6454L2.25116 15.5742ZM3.18339 16.503C3.69639 16.503 4.11227 16.0873 4.11227 15.5742C4.11227 15.0612 3.69639 14.6453 3.18339 14.6453V16.503ZM15.4725 8.12333C14.9595 8.12333 14.5436 8.53922 14.5436 9.05221C14.5436 9.56532 14.9595 9.98108 15.4725 9.98108V8.12333ZM23.2249 9.98108C23.7379 9.98108 24.1538 9.56532 24.1538 9.05221C24.1538 8.53922 23.7379 8.12333 23.2249 8.12333V9.98108ZM15.4725 14.6465H8.46878V16.5043H15.4725V14.6465ZM16.4014 15.5754V9.05221H14.5436V15.5754H16.4014ZM15.4725 16.5043H15.7816V14.6465H15.4725V16.5043ZM21.0747 16.5043C22.0753 16.4999 23.0281 16.0878 23.725 15.3665L22.389 14.0756C22.0351 14.4419 21.5589 14.6444 21.0666 14.6466L21.0747 16.5043ZM23.725 15.3665C24.4212 14.646 24.8056 13.6763 24.801 12.6718L22.9433 12.6804C22.9457 13.207 22.7437 13.7085 22.389 14.0756L23.725 15.3665ZM24.7865 12.5125L24.1381 8.8886L22.3094 9.21593L22.9578 12.8398L24.7865 12.5125ZM15.4713 4.18248H19.9042V2.32473H15.4713V4.18248ZM19.9231 4.18228C20.4125 4.17236 20.8897 4.36832 21.2421 4.73303L22.5783 3.44243C21.8722 2.71135 20.8994 2.30436 19.8853 2.32491L19.9231 4.18228ZM21.2421 4.73303C21.5952 5.09865 21.7908 5.60193 21.776 6.12648L23.633 6.17938C23.662 5.16217 23.2835 4.1726 22.5783 3.44243L21.2421 4.73303ZM21.7901 6.31631L22.308 9.21569L24.1381 8.8886L23.6189 5.98955L21.7901 6.31631ZM14.5424 3.2536L14.5412 9.05221H16.3989V3.2536H14.5424ZM16.3989 3.2536L16.399 2.2628H14.5412L14.5424 3.2536H16.3989ZM16.3989 2.25614C16.3901 1.02396 15.4033 -0.00828505 14.1453 7.48358e-05L14.1576 1.85779C14.346 1.85654 14.5394 2.0183 14.5413 2.26945L16.3989 2.25614ZM14.1514 6.24339e-05H2.25116V1.85781L14.1514 1.85783V6.24339e-05ZM2.25999 9.96394e-05C1.65844 -0.00560985 1.0841 0.234288 0.662103 0.659193L1.98025 1.96829C2.05422 1.89382 2.14892 1.85693 2.24234 1.85781L2.25999 9.96394e-05ZM0.662103 0.659193C0.240913 1.08329 0.00536276 1.65673 3.72055e-05 2.25202L1.85775 2.26862C1.8588 2.15112 1.9055 2.04356 1.98025 1.96829L0.662103 0.659193ZM3.72055e-05 2.26033L0 14.2428H1.85779V2.26033H3.72055e-05ZM7.4411e-05 14.2512C0.00539997 14.8464 0.240913 15.4198 0.662103 15.8439L1.98025 14.5348C1.9055 14.4596 1.8588 14.352 1.85775 14.2345L7.4411e-05 14.2512ZM0.662103 15.8439C1.0841 16.2688 1.65844 16.5087 2.25999 16.503L2.24234 14.6454C2.14892 14.6463 2.05422 14.6094 1.98025 14.5348L0.662103 15.8439ZM2.25116 16.503H3.18339V14.6453H2.25116V16.503ZM15.4725 9.98108H23.2249V8.12333H15.4725V9.98108Z"
+                                        fill="white" />
+                                    <path d="M6 7H12M9 4V10" stroke="white" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="m-0 text-white">
+                                    Post A Trucks
+                                </p>
+                            </div>
+                        </div>
+                        <div class="menu-4 d-flex align-items-center pt-4">
+                            <div class="icon-width">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.3601 9.816C20.9881 6 18.7321 0 11.7601 0C4.78806 0 2.53206 6 2.16006 9.816C0.855071 10.3113 -0.00571744 11.5642 2.85921e-05 12.96V14.64C2.85921e-05 16.4957 1.50438 18 3.36006 18C5.21573 18 6.72006 16.4957 6.72006 14.64V12.96C6.71402 11.5943 5.88485 10.3672 4.62006 9.852C4.86006 7.644 6.03606 2.4 11.7601 2.4C17.4841 2.4 18.6481 7.644 18.8881 9.852C17.6258 10.3683 16.8008 11.5963 16.8001 12.96V14.64C16.8053 15.93 17.546 17.1039 18.7081 17.664C18.2041 18.612 16.9201 19.896 13.7641 20.28C13.1332 19.322 11.9126 18.9444 10.851 19.3787C9.78934 19.813 9.1834 20.9378 9.40479 22.0632C9.62618 23.1887 10.613 24 11.7601 24C12.6665 23.995 13.4927 23.4797 13.8961 22.668C19.0441 22.08 20.6881 19.428 21.2041 17.868C22.6 17.4158 23.5389 16.1073 23.5201 14.64V12.96C23.5258 11.5642 22.665 10.3113 21.3601 9.816ZM4.32006 14.64C4.32006 15.1702 3.89025 15.6 3.36006 15.6C2.82986 15.6 2.40006 15.1702 2.40006 14.64V12.96C2.40006 12.617 2.58303 12.3001 2.88006 12.1286C3.17708 11.9571 3.54303 11.9571 3.84006 12.1286C4.13708 12.3001 4.32006 12.617 4.32006 12.96V14.64ZM19.2001 12.96C19.2001 12.4298 19.6299 12 20.1601 12C20.6903 12 21.1201 12.4298 21.1201 12.96V14.64C21.1201 15.1702 20.6903 15.6 20.1601 15.6C19.6299 15.6 19.2001 15.1702 19.2001 14.64V12.96Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="m-0 text-white">
+                                    Live Support
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="col-lg-10 px-0">
+            <div class="dashboard-upper-area">
+                <div class="wrapper">
+                    <div class="row mx-0 align-items-center justify-content-between">
+                        <div class="col-lg-6 col-md-6">
+                            <div>
+                                <h1>
+                                    Search Result
+                                </h1>
+                            </div>
+                        </div>
+                        <!-- user Data -->
+                        <div class="col-lg-4 col-md-4">
+                            <div
+                                class="user-menus d-flex align-items-center justify-content-md-center gap-3 mt-md-0 mt-4">
+                                <div class="bell-icon position-relative" onclick="toggleNotification()">
+                                    <div class="show-notification">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="44"
+                                            viewBox="0 0 38 44" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M5.59543 21.7825C5.31265 13.8553 11.3369 7.188 19.065 6.875C26.7933 7.188 32.8175 13.8553 32.5348 21.7825C32.5348 25.075 36.0228 28.2825 36.125 31.5825C36.125 31.6293 36.125 31.6758 36.125 31.7225C36.2005 33.8368 34.5935 35.6148 32.5323 35.6975H24.7518C24.759 37.3175 24.1635 38.8795 23.087 40.065C22.0518 41.218 20.5933 41.874 19.065 41.874C17.5368 41.874 16.0785 41.218 15.0433 40.065C13.9665 38.8795 13.3712 37.3175 13.3784 35.6975H5.59543C3.53423 35.6148 1.92708 33.8368 2.00255 31.7225C2.00255 31.6758 2.00255 31.6293 2.00255 31.5825C2.10738 28.2925 5.59543 25.0775 5.59543 21.7825Z"
+                                                stroke="black" stroke-width="3" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M13.3783 33.8225C12.3428 33.8225 11.5033 34.662 11.5033 35.6975C11.5033 36.733 12.3428 37.5725 13.3783 37.5725V33.8225ZM24.7517 37.5725C25.7872 37.5725 26.6267 36.733 26.6267 35.6975C26.6267 34.662 25.7872 33.8225 24.7517 33.8225V37.5725ZM21.5025 3.75C22.538 3.75 23.3775 2.91053 23.3775 1.875C23.3775 0.839475 22.538 0 21.5025 0V3.75ZM16.6275 0C15.592 0 14.7525 0.839475 14.7525 1.875C14.7525 2.91053 15.592 3.75 16.6275 3.75V0ZM13.3783 37.5725H24.7517V33.8225H13.3783V37.5725ZM21.5025 0H16.6275V3.75H21.5025V0Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                    <div class="notification-card" id="notificationCard">
+                                        <div>
+                                            <h2>
+                                                Notifications
+                                            </h2>
+                                        </div>
+                                        <div class="my-notification latest__text">
+                                            <p class="text-black fw-bold m-0">
+                                                Notification Title
+                                            </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur. Ut leo tempus congue quis duis
+                                                laoreet. Id convallis magnis dolor risus pulvinar pellentesque fermentum
+                                            </p>
+                                        </div>
+                                        <div class="my-notification ">
+                                            <p class="text-black fw-bold m-0">
+                                                Notification Title
+                                            </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur. Ut leo tempus congue quis duis
+                                                laoreet. Id convallis magnis dolor risus pulvinar pellentesque fermentum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-profile">
+                                        <img src="./assets/images/user-profile.png" alt="">
+                                    </div>
+                                    <div class="dropdown">
+                                        <button class="dropbtn" onclick="toggleDropdown()">Sheldon Cooper</button>
+                                        <div class="dropdown-content" id="myDropdown">
+                                            <a href="#">Profile</a>
+                                            <a href="#">Settings</a>
+                                            <a href="#" onclick="logout()">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-lower-area">
+                <div class="wrapper">
+                    <!-- Off canvas btn -->
+                    <div class="d-lg-none d-block mt-4 align">
+                        <a class="btn off-canvas-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample">
+                            Menu
+                        </a>
+                    </div>
+                    <!-- <div class="row mx-0 align-items-center mb-4">
+                        <div class="col-lg-4 mt-4">
+                            <div class="truck-points-card">
+                                <div class="d-flex w-100 align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-black fs-5 fw-bold">
+                                            My Trucks
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h1 class="text-orange fs-1">
+                                            1562
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <div class="truck-points-card">
+                                <div class="d-flex w-100 align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-black fs-5 fw-bold">
+                                            Total Trucks Post
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h1 class="text-orange fs-1">
+                                            1562
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="row mx-0 mt-5">
+                        <div class="col">
+                            <div class="truck-data-table">
+                                <div class="row mx-0 result-area-border-bottom">
+                                    <div class="col-12">
+                                        <h1 class="text-cap">
+                                            Result
+                                        </h1>
+                                    </div>
+                                    <div class="col d-flex gap-3 align-items-center">
+                                        <div class="result-btn mt-3">
+                                            <a href="#">
+                                                Los Angeles
+                                                <span class="ms-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path d="M1 1L15 15" stroke="black" />
+                                                        <path d="M1 15L15 1" stroke="black" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="result-btn mt-3">
+                                            <a href="#">
+                                                Anywhere
+                                                <span class="ms-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path d="M1 1L15 15" stroke="black" />
+                                                        <path d="M1 15L15 1" stroke="black" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="result-btn mt-3">
+                                            <a href="#">
+                                                R
+                                                <span class="ms-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path d="M1 1L15 15" stroke="black" />
+                                                        <path d="M1 15L15 1" stroke="black" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="result-btn mt-3">
+                                            <a href="#">
+                                                53 FT
+                                                <span class="ms-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path d="M1 1L15 15" stroke="black" />
+                                                        <path d="M1 15L15 1" stroke="black" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="result-btn mt-3">
+                                            <a href="#">
+                                                Full
+                                                <span class="ms-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path d="M1 1L15 15" stroke="black" />
+                                                        <path d="M1 15L15 1" stroke="black" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="result-btn mt-3">
+                                            <a href="#">
+                                                9/2
+                                                <span class="ms-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        viewBox="0 0 16 16" fill="none">
+                                                        <path d="M1 1L15 15" stroke="black" />
+                                                        <path d="M1 15L15 1" stroke="black" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mx-0 mt-3 align-items-center">
+                                    <div class="col-md-6">
+
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="30"
+                                                    viewBox="0 0 27 30" fill="none">
+                                                    <mask id="mask0_40_1121" style="mask-type:luminance"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="27" height="30">
+                                                        <path d="M26.7197 0H0V29.1488H26.7197V0Z" fill="white" />
+                                                    </mask>
+                                                    <g mask="url(#mask0_40_1121)">
+                                                        <path
+                                                            d="M25.0938 12.3417C26.1759 16.3937 25.1275 20.8961 21.9487 24.0748C18.1881 27.8355 12.5751 28.6145 8.04705 26.4118M23.0222 7.97228L21.9487 6.89877C17.2057 2.15573 9.51566 2.15573 4.77261 6.89877C0.349404 11.3219 0.0511448 18.3081 3.8778 23.0769M23.0222 7.97228H16.5811M23.0222 7.97228V1.53125"
+                                                            stroke="#FE3B00" stroke-width="3.75" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33"
+                                                    viewBox="0 0 33 33" fill="none">
+                                                    <path
+                                                        d="M16.6641 20.4528V2M16.6641 2L20.9225 6.96807M16.6641 2L12.4058 6.96807"
+                                                        stroke="#FE3B00" stroke-width="3.75" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M10.9864 30.3898H22.342C26.3568 30.3898 28.3642 30.3898 29.6114 29.1425C30.8587 27.8954 30.8587 25.8879 30.8587 21.8731V20.4537C30.8587 16.4389 30.8587 14.4315 29.6114 13.1842C28.5207 12.0935 26.8488 11.9566 23.7615 11.9395M9.56697 11.9395C6.47963 11.9566 4.80764 12.0935 3.71697 13.1842C2.46973 14.4315 2.46973 16.4389 2.46973 20.4537V21.8731C2.46973 25.8879 2.46973 27.8954 3.71697 29.1425C4.14252 29.5681 4.65656 29.8484 5.30863 30.0332"
+                                                        stroke="#FE3B00" stroke-width="3.75" stroke-linecap="round" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="31"
+                                                    viewBox="0 0 28 31" fill="none">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M5.05932 14.8546C4.86648 9.4487 8.97471 4.90193 14.2449 4.68848C19.5151 4.90193 23.6234 9.4487 23.4306 14.8546C23.4306 17.0999 25.8092 19.2873 25.8789 21.5377C25.8789 21.5696 25.8789 21.6013 25.8789 21.6332C25.9304 23.075 24.8345 24.2875 23.4289 24.3439H18.123C18.1279 25.4487 17.7218 26.5139 16.9877 27.3224C16.2817 28.1086 15.2871 28.556 14.2449 28.556C13.2027 28.556 12.2082 28.1086 11.5023 27.3224C10.768 26.5139 10.362 25.4487 10.3669 24.3439H5.05932C3.65369 24.2875 2.55769 23.075 2.60916 21.6332C2.60916 21.6013 2.60916 21.5696 2.60916 21.5377C2.68065 19.2941 5.05932 17.1017 5.05932 14.8546Z"
+                                                        stroke="#FE3B00" stroke-width="3.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path
+                                                        d="M10.3661 23.0652C9.65988 23.0652 9.0874 23.6377 9.0874 24.3439C9.0874 25.05 9.65988 25.6225 10.3661 25.6225V23.0652ZM18.1222 25.6225C18.8283 25.6225 19.4008 25.05 19.4008 24.3439C19.4008 23.6377 18.8283 23.0652 18.1222 23.0652V25.6225ZM15.9063 2.55731C16.6125 2.55731 17.185 1.98483 17.185 1.27865C17.185 0.572479 16.6125 0 15.9063 0V2.55731ZM12.5818 0C11.8757 0 11.3032 0.572479 11.3032 1.27865C11.3032 1.98483 11.8757 2.55731 12.5818 2.55731V0ZM10.3661 25.6225H18.1222V23.0652H10.3661V25.6225ZM15.9063 0H12.5818V2.55731H15.9063V0Z"
+                                                        fill="#FE3B00" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="25"
+                                                    viewBox="0 0 18 25" fill="none">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M0 1.73666C0 1.4777 0.100464 1.22883 0.280247 1.04243L0.990787 0.30577C1.17925 0.110374 1.43906 0 1.71054 0H16.2895C16.5609 0 16.8207 0.110374 17.0092 0.30577L17.7198 1.04243C17.8995 1.22883 18 1.47769 18 1.73666V23.212C18 23.994 17.1428 24.4734 16.4765 24.064L9.52347 19.7922C9.20237 19.5949 8.79763 19.5949 8.47653 19.7922L1.52347 24.064C0.857184 24.4734 0 23.994 0 23.212V1.73666ZM3.57143 2.66597C3.01914 2.66597 2.57143 3.11368 2.57143 3.66597V18.5333C2.57143 19.3153 3.42863 19.7947 4.09492 19.3854L8.47651 16.6933C8.79762 16.496 9.20238 16.496 9.52349 16.6933L13.9051 19.3854C14.5714 19.7947 15.4286 19.3153 15.4286 18.5333V3.66596C15.4286 3.11368 14.9809 2.66597 14.4286 2.66597H3.57143Z"
+                                                        fill="#FE3B00" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex gap-3 align-items-center justify-content-md-end">
+                                            <div class="truck-card-btn edit-btn-result">
+                                                <button>
+                                                    Edit
+                                                </button>
+                                            </div>
+                                            <div class="add-truck-btn mt-lg-0 mt-3">
+                                                <button>
+                                                    <div>
+                                                        New Search
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- Table -->
+                                <div class="table-truck mb-2 table-responsive">
+                                    <table class="table-0 ">
+                                        <thead>
+                                            <tr>
+                                                <th class="border-left-1">
+                                                    <input class="form-check-input select-all" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                </th>
+                                                <th>
+                                                    Age
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="10"
+                                                        viewBox="0 0 9 10" fill="none">
+                                                        <path
+                                                            d="M4.63013 9.4707V1.00041M4.63013 9.4707L1 5.84058M4.63013 9.4707L8.26025 5.84058"
+                                                            stroke="#FE3B00" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </th>
+                                                <th>
+                                                    Pickup
+                                                </th>
+                                                <th>
+                                                    Origins DH-0 Dest DH-D
+                                                </th>
+                                                <th>
+                                                    Trip
+                                                </th>
+                                                <th>
+                                                    EQ
+                                                </th>
+                                                <th>
+                                                    Length
+                                                </th>
+                                                <th>
+                                                    Weight <svg xmlns="http://www.w3.org/2000/svg" width="9" height="10"
+                                                        viewBox="0 0 9 10" fill="none">
+                                                        <path
+                                                            d="M4.63013 9.4707V1.00041M4.63013 9.4707L1 5.84058M4.63013 9.4707L8.26025 5.84058"
+                                                            stroke="#FE3B00" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </th>
+                                                <th>
+                                                    F/P
+                                                </th>
+                                                <th>
+                                                    Factor
+                                                </th>
+                                                <th>
+                                                    CS
+                                                </th>
+                                                <th>
+                                                    DTP
+                                                </th>
+                                                <th>
+                                                    Company/ Contact
+                                                </th>
+                                                <th>
+                                                    Offer <svg xmlns="http://www.w3.org/2000/svg" width="9" height="10"
+                                                        viewBox="0 0 9 10" fill="none">
+                                                        <path
+                                                            d="M4.63013 9.4707V1.00041M4.63013 9.4707L1 5.84058M4.63013 9.4707L8.26025 5.84058"
+                                                            stroke="#FE3B00" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </th>
+                                                <th>
+                                                    Book Now
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><input class="form-check-input select-all" type="checkbox" value=""
+                                                        id="flexCheckDefault"></td>
+                                                <td>
+                                                    0m
+                                                </td>
+                                                <td>
+                                                    9/2
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center gap-1">
+                                                        <div>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                                                                viewBox="0 0 6 6" fill="none">
+                                                                <circle cx="3" cy="3" r="3" fill="#FE3B00" />
+                                                            </svg>
+                                                        </div>
+                                                        <div>
+                                                            Lorem, CA (8)
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center gap-1">
+                                                        <div>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="8"
+                                                                viewBox="0 0 6 8" fill="none">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M3 2.25C2.58575 2.25 2.25 2.58575 2.25 3C2.25 3.41425 2.58575 3.75 3 3.75C3.41425 3.75 3.75 3.41425 3.75 3C3.75 2.58575 3.41425 2.25 3 2.25ZM3 4.25C2.30975 4.25 1.75 3.6905 1.75 3C1.75 2.3095 2.30975 1.75 3 1.75C3.69025 1.75 4.25 2.3095 4.25 3C4.25 3.6905 3.69025 4.25 3 4.25ZM3 0C1.34325 0 0 1.34325 0 3C0 4.2545 2.50125 8.00275 3 8C3.491 8.00275 6 4.2375 6 3C6 1.34325 4.65675 0 3 0Z"
+                                                                    fill="#FE3B00" />
+                                                            </svg>
+                                                        </div>
+                                                        <div>
+                                                            El Paso, Tx (-)
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    789
+                                                </td>
+                                                <td>
+                                                    VR
+                                                </td>
+                                                <td>
+                                                    53 ft
+                                                </td>
+                                                <td>
+                                                    40,000 ton
+                                                </td>
+                                                <td>
+                                                    Full
+                                                </td>
+                                                <td>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15"
+                                                        viewBox="0 0 22 15" fill="none">
+                                                        <path d="M2 8L6.5 13L20.5 2" stroke="#FE3B00" stroke-width="2.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </td>
+                                                <td class="text-orange">
+                                                    90
+                                                </td>
+                                                <td class="text-orange">
+                                                    20
+                                                </td>
+                                                <td class="text-orange">
+                                                    Lorem ipsum dolor sit amet <br>
+                                                    +1 123 456 7890
+                                                </td>
+                                                <td>
+                                                    $1,000
+                                                </td>
+                                                <td>
+                                                    -
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input class="form-check-input select-all" type="checkbox" value=""
+                                                        id="flexCheckDefault"></td>
+                                                <td>
+                                                    0m
+                                                </td>
+                                                <td>
+                                                    9/2
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center gap-1">
+                                                        <div>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                                                                viewBox="0 0 6 6" fill="none">
+                                                                <circle cx="3" cy="3" r="3" fill="#FE3B00" />
+                                                            </svg>
+                                                        </div>
+                                                        <div>
+                                                            Lorem, CA (8)
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center gap-1">
+                                                        <div>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="8"
+                                                                viewBox="0 0 6 8" fill="none">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M3 2.25C2.58575 2.25 2.25 2.58575 2.25 3C2.25 3.41425 2.58575 3.75 3 3.75C3.41425 3.75 3.75 3.41425 3.75 3C3.75 2.58575 3.41425 2.25 3 2.25ZM3 4.25C2.30975 4.25 1.75 3.6905 1.75 3C1.75 2.3095 2.30975 1.75 3 1.75C3.69025 1.75 4.25 2.3095 4.25 3C4.25 3.6905 3.69025 4.25 3 4.25ZM3 0C1.34325 0 0 1.34325 0 3C0 4.2545 2.50125 8.00275 3 8C3.491 8.00275 6 4.2375 6 3C6 1.34325 4.65675 0 3 0Z"
+                                                                    fill="#FE3B00" />
+                                                            </svg>
+                                                        </div>
+                                                        <div>
+                                                            El Paso, Tx (-)
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    789
+                                                </td>
+                                                <td>
+                                                    VR
+                                                </td>
+                                                <td>
+                                                    53 ft
+                                                </td>
+                                                <td>
+                                                    40,000 ton
+                                                </td>
+                                                <td>
+                                                    Full
+                                                </td>
+                                                <td>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15"
+                                                        viewBox="0 0 22 15" fill="none">
+                                                        <path d="M2 8L6.5 13L20.5 2" stroke="#FE3B00" stroke-width="2.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </td>
+                                                <td class="text-orange">
+                                                    90
+                                                </td>
+                                                <td class="text-orange">
+                                                    20
+                                                </td>
+                                                <td class="text-orange">
+                                                    Lorem ipsum dolor sit amet <br>
+                                                    +1 123 456 7890
+                                                </td>
+                                                <td>
+                                                    $1,000
+                                                </td>
+                                                <td>
+                                                    -
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input class="form-check-input select-all" type="checkbox" value=""
+                                                        id="flexCheckDefault"></td>
+                                                <td>
+                                                    0m
+                                                </td>
+                                                <td>
+                                                    9/2
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center gap-1">
+                                                        <div>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                                                                viewBox="0 0 6 6" fill="none">
+                                                                <circle cx="3" cy="3" r="3" fill="#FE3B00" />
+                                                            </svg>
+                                                        </div>
+                                                        <div>
+                                                            Lorem, CA (8)
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center gap-1">
+                                                        <div>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="8"
+                                                                viewBox="0 0 6 8" fill="none">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M3 2.25C2.58575 2.25 2.25 2.58575 2.25 3C2.25 3.41425 2.58575 3.75 3 3.75C3.41425 3.75 3.75 3.41425 3.75 3C3.75 2.58575 3.41425 2.25 3 2.25ZM3 4.25C2.30975 4.25 1.75 3.6905 1.75 3C1.75 2.3095 2.30975 1.75 3 1.75C3.69025 1.75 4.25 2.3095 4.25 3C4.25 3.6905 3.69025 4.25 3 4.25ZM3 0C1.34325 0 0 1.34325 0 3C0 4.2545 2.50125 8.00275 3 8C3.491 8.00275 6 4.2375 6 3C6 1.34325 4.65675 0 3 0Z"
+                                                                    fill="#FE3B00" />
+                                                            </svg>
+                                                        </div>
+                                                        <div>
+                                                            El Paso, Tx (-)
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    789
+                                                </td>
+                                                <td>
+                                                    VR
+                                                </td>
+                                                <td>
+                                                    53 ft
+                                                </td>
+                                                <td>
+                                                    40,000 ton
+                                                </td>
+                                                <td>
+                                                    Full
+                                                </td>
+                                                <td>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15"
+                                                        viewBox="0 0 22 15" fill="none">
+                                                        <path d="M2 8L6.5 13L20.5 2" stroke="#FE3B00" stroke-width="2.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </td>
+                                                <td class="text-orange">
+                                                    90
+                                                </td>
+                                                <td class="text-orange">
+                                                    20
+                                                </td>
+                                                <td class="text-orange">
+                                                    Lorem ipsum dolor sit amet <br>
+                                                    +1 123 456 7890
+                                                </td>
+                                                <td>
+                                                    $1,000
+                                                </td>
+                                                <td>
+                                                    -
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                               
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-box-icon">
+            <img src="./assets/images/chat-box.png" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- JQUERY CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- BOOTSTARP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- CUSTOM JS START -->
+<script src="./assets/js/script.js"></script>
+<!-- CUSTOM JS END -->

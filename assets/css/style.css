@@ -595,7 +595,12 @@ h6 {
     width: 620px;
     position: absolute;
     right: 0;
+    z-index: 1;
     display: none;
+}
+
+.text-cap {
+    text-transform: capitalize !important;
 }
 
 .latest__text {
@@ -729,6 +734,7 @@ h6 {
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
     padding: 1.5rem;
     height: max-content;
+    margin-bottom: 1.5rem;
 }
 
 .select-all:focus {
@@ -765,7 +771,7 @@ h6 {
     position: fixed;
     bottom: 20px;
     right: 10px;
-    width: 100px;
+    width: 75px;
 }
 
 .align {
@@ -808,6 +814,15 @@ h6 {
     font-size: 14px;
 }
 
+.edit-profile-input select {
+    border: none;
+    border-radius: 10px;
+    background: #ECECEC;
+    padding: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
 .truck-card-btn-2 button {
     width: 150px !important;
     padding: .8rem 0 !important;
@@ -815,4 +830,38 @@ h6 {
 
 .on-profile img {
     width: 250px;
+}
+
+.result-btn a {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: #FFE0D7;
+}
+
+.result-area-border-bottom {
+    border-bottom: 1px solid #a7a7a7;
+    padding-bottom: 1.5rem;
+}
+
+.edit-btn-result button {
+    width: 140px !important;
+    padding: 15px 0 !important;
+    font-weight: 600 !important;
+}
+
+.search-load select {
+    border-radius: 10px;
+    padding: .5em 2em;
+}
+
+.form-check-input:checked {
+    background-color: #FE3B00;
+    border-color: #FE3B00;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+.add-truck-btn1{
+    padding: .5rem 0 !important;
 }
