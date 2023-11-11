@@ -1,0 +1,19 @@
+.custom-table-header {
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    background: #FFF6F3;
+    padding: 15px;
+}
+
+.custom-table-body {
+    padding-top: 30px;
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    border-top: none !important;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border: 1px solid #B8B8B8;
+    background: #FFF;
+
+}

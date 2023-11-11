@@ -19,10 +19,14 @@
 <!-- Bootstrap css link-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
+<!-- Jquery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 <!-- CUSTOM CSS START -->
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/resusable.css">
+<link rel="stylesheet" href="assets/css/custom-table.css">
 <!-- CUSTOM CSS END -->
 
 <body>
@@ -597,7 +601,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
+                                            <tr class="position-relative cursor">
                                                 <td><input class="form-check-input select-all" type="checkbox" value=""
                                                         id="flexCheckDefault"></td>
                                                 <td>
@@ -669,161 +673,134 @@
                                                 </td>
                                                 <td>
                                                     -
+                                                    <div class="table-detail-trigger" id="table-detail-trigger1"></div>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td><input class="form-check-input select-all" type="checkbox" value=""
-                                                        id="flexCheckDefault"></td>
+                                            <tr class="detail-row d-table-row" id="detail-row1">
                                                 <td>
-                                                    0m
-                                                </td>
-                                                <td>
-                                                    9/2
-                                                </td>
-                                                <td>
-                                                    <div class="d-flex align-items-center gap-1">
-                                                        <div>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
-                                                                viewBox="0 0 6 6" fill="none">
-                                                                <circle cx="3" cy="3" r="3" fill="#FE3B00" />
-                                                            </svg>
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <div class="row">
+                                                                <div class="col-lg-4">
+                                                                    <h6 class="fw-500">Trip</h6>
+                                                                    <div>
+                                                                        <div
+                                                                            class="d-flex align-items-center gap-2 small">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="6" height="6" viewBox="0 0 6 6"
+                                                                                fill="none">
+                                                                                <circle cx="3" cy="3" r="3"
+                                                                                    fill="#FE3B00" />
+                                                                            </svg>
+                                                                            Dellas , TX (0)
+                                                                        </div>
+                                                                        <div
+                                                                            class="d-flex align-items-center gap-2 small mt-2">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="6" height="8" viewBox="0 0 6 8"
+                                                                                fill="none">
+                                                                                <path fill-rule="evenodd"
+                                                                                    clip-rule="evenodd"
+                                                                                    d="M3 2.25C2.58575 2.25 2.25 2.58575 2.25 3C2.25 3.41425 2.58575 3.75 3 3.75C3.41425 3.75 3.75 3.41425 3.75 3C3.75 2.58575 3.41425 2.25 3 2.25ZM3 4.25C2.30975 4.25 1.75 3.6905 1.75 3C1.75 2.3095 2.30975 1.75 3 1.75C3.69025 1.75 4.25 2.3095 4.25 3C4.25 3.6905 3.69025 4.25 3 4.25ZM3 0C1.34325 0 0 1.34325 0 3C0 4.2545 2.50125 8.00275 3 8C3.491 8.00275 6 4.2375 6 3C6 1.34325 4.65675 0 3 0Z"
+                                                                                    fill="#FE3B00" />
+                                                                            </svg>
+                                                                            Tyler, TX
+                                                                        </div>
+                                                                        <div class="px-3">
+                                                                            <p
+                                                                                class="fw-500 mb-0 text-black mt-2 small">
+                                                                                Requirement</p>
+                                                                            <div class="td-detail-ul mt-2">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <span>Load</span>
+                                                                                        <span>Full</span>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <span>Truck</span>
+                                                                                        <span>Lorem</span>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <span>Length</span> <span>46
+                                                                                            feel</span>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <span>Weight</span> <span>40,500
+                                                                                            ton</span>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <span>lorem</span>
+                                                                                        <span>-</span>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <span>ID</span> <span>-</span>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4">
+                                                                    <h6 class="fw-500">Rate</h6>
+                                                                    <div class="td-detail-ul mt-2">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <span>Total</span>
+                                                                                <span>-</span>
+                                                                            </li>
+                                                                            <li>
+                                                                                <span>Trip</span>
+                                                                                <span>-</span>
+
+                                                                            </li>
+                                                                            <li>
+                                                                                <span>lorem</span>
+                                                                                <span>-</span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <h6 class="fw-500">Market Rate</h6>
+                                                                    <h6 class="fw-500">Spot Rate</h6>
+                                                                    <div>
+                                                                        <div class="td-detail-ul mt-2">
+                                                                            <ul class="mb-0">
+                                                                                <li class="text-black">
+                                                                                    <span>Defer</span>
+                                                                                    <span>-</span>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <ul class="mt-0">
+                                                                                <li>
+                                                                                    <span>Range</span>
+                                                                                    <span>$201</span>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4">
+                                                                    
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                        <div>
-                                                            Lorem, CA (8)
+                                                        <div class="col-lg-4">
+
                                                         </div>
                                                     </div>
-                                                    <div class="d-flex align-items-center gap-1">
-                                                        <div>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="8"
-                                                                viewBox="0 0 6 8" fill="none">
-                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                    d="M3 2.25C2.58575 2.25 2.25 2.58575 2.25 3C2.25 3.41425 2.58575 3.75 3 3.75C3.41425 3.75 3.75 3.41425 3.75 3C3.75 2.58575 3.41425 2.25 3 2.25ZM3 4.25C2.30975 4.25 1.75 3.6905 1.75 3C1.75 2.3095 2.30975 1.75 3 1.75C3.69025 1.75 4.25 2.3095 4.25 3C4.25 3.6905 3.69025 4.25 3 4.25ZM3 0C1.34325 0 0 1.34325 0 3C0 4.2545 2.50125 8.00275 3 8C3.491 8.00275 6 4.2375 6 3C6 1.34325 4.65675 0 3 0Z"
-                                                                    fill="#FE3B00" />
-                                                            </svg>
-                                                        </div>
-                                                        <div>
-                                                            El Paso, Tx (-)
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    789
-                                                </td>
-                                                <td>
-                                                    VR
-                                                </td>
-                                                <td>
-                                                    53 ft
-                                                </td>
-                                                <td>
-                                                    40,000 ton
-                                                </td>
-                                                <td>
-                                                    Full
-                                                </td>
-                                                <td>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15"
-                                                        viewBox="0 0 22 15" fill="none">
-                                                        <path d="M2 8L6.5 13L20.5 2" stroke="#FE3B00" stroke-width="2.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg>
-                                                </td>
-                                                <td class="text-orange">
-                                                    90
-                                                </td>
-                                                <td class="text-orange">
-                                                    20
-                                                </td>
-                                                <td class="text-orange">
-                                                    Lorem ipsum dolor sit amet <br>
-                                                    +1 123 456 7890
-                                                </td>
-                                                <td>
-                                                    $1,000
-                                                </td>
-                                                <td>
-                                                    -
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><input class="form-check-input select-all" type="checkbox" value=""
-                                                        id="flexCheckDefault"></td>
-                                                <td>
-                                                    0m
-                                                </td>
-                                                <td>
-                                                    9/2
-                                                </td>
-                                                <td>
-                                                    <div class="d-flex align-items-center gap-1">
-                                                        <div>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
-                                                                viewBox="0 0 6 6" fill="none">
-                                                                <circle cx="3" cy="3" r="3" fill="#FE3B00" />
-                                                            </svg>
-                                                        </div>
-                                                        <div>
-                                                            Lorem, CA (8)
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-flex align-items-center gap-1">
-                                                        <div>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="8"
-                                                                viewBox="0 0 6 8" fill="none">
-                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                    d="M3 2.25C2.58575 2.25 2.25 2.58575 2.25 3C2.25 3.41425 2.58575 3.75 3 3.75C3.41425 3.75 3.75 3.41425 3.75 3C3.75 2.58575 3.41425 2.25 3 2.25ZM3 4.25C2.30975 4.25 1.75 3.6905 1.75 3C1.75 2.3095 2.30975 1.75 3 1.75C3.69025 1.75 4.25 2.3095 4.25 3C4.25 3.6905 3.69025 4.25 3 4.25ZM3 0C1.34325 0 0 1.34325 0 3C0 4.2545 2.50125 8.00275 3 8C3.491 8.00275 6 4.2375 6 3C6 1.34325 4.65675 0 3 0Z"
-                                                                    fill="#FE3B00" />
-                                                            </svg>
-                                                        </div>
-                                                        <div>
-                                                            El Paso, Tx (-)
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    789
-                                                </td>
-                                                <td>
-                                                    VR
-                                                </td>
-                                                <td>
-                                                    53 ft
-                                                </td>
-                                                <td>
-                                                    40,000 ton
-                                                </td>
-                                                <td>
-                                                    Full
-                                                </td>
-                                                <td>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15"
-                                                        viewBox="0 0 22 15" fill="none">
-                                                        <path d="M2 8L6.5 13L20.5 2" stroke="#FE3B00" stroke-width="2.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg>
-                                                </td>
-                                                <td class="text-orange">
-                                                    90
-                                                </td>
-                                                <td class="text-orange">
-                                                    20
-                                                </td>
-                                                <td class="text-orange">
-                                                    Lorem ipsum dolor sit amet <br>
-                                                    +1 123 456 7890
-                                                </td>
-                                                <td>
-                                                    $1,000
-                                                </td>
-                                                <td>
-                                                    -
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
 
-                               
+                                <script>
+                                    $('#table-detail-trigger1').click(function () {
+                                        $('#detail-row1').slideToggle();
+                                    });
+                                    $('#table-detail-trigger2').click(function () {
+                                        $('#detail-row2').slideToggle();
+                                    });
+                                </script>
 
                             </div>
                         </div>
