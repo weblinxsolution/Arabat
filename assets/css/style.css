@@ -44,7 +44,7 @@ img {
 
 h1 {
     font-size: 30px;
-    text-transform: uppercase !important;
+    /* text-transform: uppercase !important; */
     font-family: Sf Pro Display-Bold;
 }
 
@@ -591,7 +591,7 @@ h6 {
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
-    padding: 1rem;
+    padding: 1rem 2rem;
     width: 620px;
     position: absolute;
     right: 0;
@@ -610,12 +610,12 @@ h6 {
 .latest__text::before {
     content: '';
     position: absolute;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     border-radius: 100%;
     background: #E20000;
-    left: -10px;
-    top: 10%;
+    left: -15px;
+    top: 5%;
 }
 
 .bg-red {
@@ -873,9 +873,38 @@ h6 {
     font-weight: bold;
     border-radius: 0;
 }
+
 .nav-links-custom .nav-link {
-   color: #000;
+    color: #000;
 }
-.nav-links-custom .active{
-    border-bottom: 1px solid #FE3B00;
+
+.nav-links-custom .active {
+    position: relative;
+}
+
+.nav-links-custom .active::before {
+    background-color: #FE3B00;
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 3px !important;
+    bottom: -1rem;
+    left: -1.54rem;
+    /* z-index: 999; */
+}
+
+th {
+    color: #000;
+}
+
+td {
+    color: #000;
+}
+
+.local-input-area input {
+    padding: 1rem 2rem;
+}
+
+.local-input-area select {
+    padding: 1rem 2rem;
 }

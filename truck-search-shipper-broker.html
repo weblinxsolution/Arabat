@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arabat shipper/broker-dashboard</title>
+<title>Arabat career-My Truck</title>
 
 <!-- SLICK SLIDER -->
 <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
@@ -259,8 +259,8 @@
                     <div class="row mx-0 align-items-center justify-content-between">
                         <div class="col-lg-6 col-md-6">
                             <div>
-                                <h1>
-                                    Dashboard
+                                <h1 class="text-cap">
+                                    Truck Search
                                 </h1>
                             </div>
                         </div>
@@ -335,415 +335,105 @@
                             Menu
                         </a>
                     </div>
-                    <div class="row mx-0 align-items-center mb-4">
-                        <div class="col-lg-4 mt-4">
-                            <div class="truck-points-card">
-                                <div class="d-flex w-100 align-items-center justify-content-between">
-                                    <div>
-                                        <p class="m-0 text-black fs-5 fw-bold">
-                                            Total Loads
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <h1 class="text-orange fs-1">
-                                            1562
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mt-4">
-                            <div class="truck-points-card">
-                                <div class="d-flex w-100 align-items-center justify-content-between">
-                                    <div>
-                                        <p class="m-0 text-black fs-5 fw-bold">
-                                            My Shipment
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <h1 class="text-orange fs-1">
-                                            1562
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mt-4">
-                            <div class="truck-points-card">
-                                <div class="d-flex w-100 align-items-center justify-content-between">
-                                    <div>
-                                        <p class="m-0 text-black fs-5 fw-bold">
-                                            Total Shipment
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <h1 class="text-orange fs-1">
-                                            1562
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mx-0">
+
+                    <div class="row mx-0 mt-5">
                         <div class="col">
                             <div class="truck-data-table">
-                                <div class="d-md-flex align-items-center justify-content-between">
+                                <div class="d-md-flex flex-column gap-2 border-bottom pb-4">
                                     <div>
-                                        <h1 class="text-cap">
-                                            My Shipment
-                                        </h1>
+                                        <h3>
+                                            Result
+                                        </h3>
                                     </div>
-                                    <div class="add-truck-btn mt-lg-0 mt-3">
-                                        <button>
-                                            <div>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
-                                                    viewBox="0 0 17 17" fill="none">
-                                                    <path d="M1 8.5H16M8.5 1V16" stroke="white" stroke-width="2"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                            <div>
-                                                Add Shipment
-                                            </div>
-                                        </button>
+                                    <div class="d-md-flex gap-2">
+                                        <div class="local-input-area mt-lg-0 mt-3">
+                                            <input type="email" class="form-control" placeholder="Location">
+                                        </div>
+                                        <div class="local-input-area mt-lg-0 mt-3">
+                                            <input type="date" class="form-control" placeholder="Location">
+                                        </div>
+                                        <div class="local-input-area mt-lg-0 mt-3">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="nav-links-custom border-bottom pb-0">
-                                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                                data-bs-target="#pills-home" type="button" role="tab"
-                                                aria-controls="pills-home" aria-selected="true">Open <span>(0)</span></button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                                data-bs-target="#pills-profile" type="button" role="tab"
-                                                aria-controls="pills-profile" aria-selected="false">Active<span>(0)</span></button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                                data-bs-target="#pills-contact" type="button" role="tab"
-                                                aria-controls="pills-contact" aria-selected="false">History<span>(0)</span></button>
-                                        </li>
-                                    </ul>
+                                <!-- Table -->
+                                <div class="table-truck mb-1 table-responsive">
+                                    <table class="table-0 ">
+                                        <thead>
+                                            <tr>
+                                                <th class="border-left-1">
+                                                    Truck Required
+                                                </th>
+                                                <th>
+                                                    Pick Up Location
+                                                </th>
+                                                <th>
+                                                    Drop Off Location
+                                                </th>
+                                                <th>
+                                                    Date
+                                                </th>
+                                                <th>
+                                                    Weight
+                                                </th>
+                                                <th>
+                                                    Special Instruction
+                                                </th>
+                                                <th>
+                                                    No. Of Trucks Req
+                                                </th>
+                                                <th>
+                                                    Offer Price
+                                                </th>
+                                                <th>
+                                                    Contact No.
+                                                </th>
+                                                <th>
+                                                    Company Name
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Lorem ipsum dolor</td>
+                                                <td>
+                                                    Lorem ipsum
+                                                </td>
+                                                <td>
+                                                    Lorem ipsum
+                                                </td>
+                                                <td>
+                                                    20/02/2023
+                                                </td>
+                                                <td>
+                                                    15 Ton
+                                                </td>
+                                                <td>
+                                                    Lorem ipsum dolor
+                                                </td>
+                                                <td>
+                                                    15
+                                                </td>
+                                                <td>
+                                                    SAR 1,000.00
+                                                </td>
+                                                <td>
+                                                    +1 123 456 7890
+                                                </td>
+                                                <td>
+                                                    Lorem Logistics
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
 
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                        aria-labelledby="pills-home-tab" tabindex="0">
-                                        <!-- Table -->
-                                        <div class="table-truck mb-2 table-responsive">
-                                            <table class="table-0 ">
-                                                <thead>
-                                                    <tr>
-                                                        <th class="border-left-1">
-                                                            <input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault">
-                                                        </th>
-                                                        <th>
-                                                            Age
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="9"
-                                                                height="10" viewBox="0 0 9 10" fill="none">
-                                                                <path
-                                                                    d="M4.63013 9.4707V1.00041M4.63013 9.4707L1 5.84058M4.63013 9.4707L8.26025 5.84058"
-                                                                    stroke="#FE3B00" stroke-linecap="round"
-                                                                    stroke-linejoin="round" />
-                                                            </svg>
-                                                        </th>
-                                                        <th>
-                                                            Pick Up
-                                                        </th>
-                                                        <th>
-                                                            Trip
-                                                        </th>
-                                                        <th>
-                                                            Reference
-                                                        </th>
-                                                        <th>
-                                                            Equipment
-                                                        </th>
-                                                        <th>
-                                                            Rate
-                                                        </th>
-                                                        <th>
-                                                            BIDS
-                                                        </th>
-                                                        <th>
-                                                            Status
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                        aria-labelledby="pills-profile-tab" tabindex="0"> <!-- Table -->
-                                        <div class="table-truck mb-2 table-responsive">
-                                            <table class="table-0 ">
-                                                <thead>
-                                                    <tr>
-                                                        <th class="border-left-1">
-                                                            <input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault">
-                                                        </th>
-                                                        <th>
-                                                            Age
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="9"
-                                                                height="10" viewBox="0 0 9 10" fill="none">
-                                                                <path
-                                                                    d="M4.63013 9.4707V1.00041M4.63013 9.4707L1 5.84058M4.63013 9.4707L8.26025 5.84058"
-                                                                    stroke="#FE3B00" stroke-linecap="round"
-                                                                    stroke-linejoin="round" />
-                                                            </svg>
-                                                        </th>
-                                                        <th>
-                                                            Pick Up
-                                                        </th>
-                                                        <th>
-                                                            Trip
-                                                        </th>
-                                                        <th>
-                                                            Reference
-                                                        </th>
-                                                        <th>
-                                                            Equipment
-                                                        </th>
-                                                        <th>
-                                                            Rate
-                                                        </th>
-                                                        <th>
-                                                            BIDS
-                                                        </th>
-                                                        <th>
-                                                            Status
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab" tabindex="0"> <!-- Table -->
-                                        <div class="table-truck mb-2 table-responsive">
-                                            <table class="table-0 ">
-                                                <thead>
-                                                    <tr>
-                                                        <th class="border-left-1">
-                                                            <input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault">
-                                                        </th>
-                                                        <th>
-                                                            Age
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="9"
-                                                                height="10" viewBox="0 0 9 10" fill="none">
-                                                                <path
-                                                                    d="M4.63013 9.4707V1.00041M4.63013 9.4707L1 5.84058M4.63013 9.4707L8.26025 5.84058"
-                                                                    stroke="#FE3B00" stroke-linecap="round"
-                                                                    stroke-linejoin="round" />
-                                                            </svg>
-                                                        </th>
-                                                        <th>
-                                                            Pick Up
-                                                        </th>
-                                                        <th>
-                                                            Trip
-                                                        </th>
-                                                        <th>
-                                                            Reference
-                                                        </th>
-                                                        <th>
-                                                            Equipment
-                                                        </th>
-                                                        <th>
-                                                            Rate
-                                                        </th>
-                                                        <th>
-                                                            BIDS
-                                                        </th>
-                                                        <th>
-                                                            Status
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
+
+
                             </div>
                         </div>
                     </div>

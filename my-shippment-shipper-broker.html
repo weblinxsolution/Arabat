@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arabat shipper/broker-dashboard</title>
+<title>Arabat shipper/broker-my-shippment</title>
 
 <!-- SLICK SLIDER -->
 <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
@@ -335,57 +335,8 @@
                             Menu
                         </a>
                     </div>
-                    <div class="row mx-0 align-items-center mb-4">
-                        <div class="col-lg-4 mt-4">
-                            <div class="truck-points-card">
-                                <div class="d-flex w-100 align-items-center justify-content-between">
-                                    <div>
-                                        <p class="m-0 text-black fs-5 fw-bold">
-                                            Total Loads
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <h1 class="text-orange fs-1">
-                                            1562
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mt-4">
-                            <div class="truck-points-card">
-                                <div class="d-flex w-100 align-items-center justify-content-between">
-                                    <div>
-                                        <p class="m-0 text-black fs-5 fw-bold">
-                                            My Shipment
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <h1 class="text-orange fs-1">
-                                            1562
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mt-4">
-                            <div class="truck-points-card">
-                                <div class="d-flex w-100 align-items-center justify-content-between">
-                                    <div>
-                                        <p class="m-0 text-black fs-5 fw-bold">
-                                            Total Shipment
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <h1 class="text-orange fs-1">
-                                            1562
-                                        </h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mx-0">
+
+                    <div class="row mx-0 mt-5">
                         <div class="col">
                             <div class="truck-data-table">
                                 <div class="d-md-flex align-items-center justify-content-between">
@@ -414,17 +365,20 @@
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                                 data-bs-target="#pills-home" type="button" role="tab"
-                                                aria-controls="pills-home" aria-selected="true">Open <span>(0)</span></button>
+                                                aria-controls="pills-home" aria-selected="true">Open
+                                                <span>(0)</span></button>
                                         </li>
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                                                 data-bs-target="#pills-profile" type="button" role="tab"
-                                                aria-controls="pills-profile" aria-selected="false">Active<span>(0)</span></button>
+                                                aria-controls="pills-profile"
+                                                aria-selected="false">Active<span>(0)</span></button>
                                         </li>
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
                                                 data-bs-target="#pills-contact" type="button" role="tab"
-                                                aria-controls="pills-contact" aria-selected="false">History<span>(0)</span></button>
+                                                aria-controls="pills-contact"
+                                                aria-selected="false">History<span>(0)</span></button>
                                         </li>
                                     </ul>
                                 </div>
@@ -467,10 +421,10 @@
                                                             Rate
                                                         </th>
                                                         <th>
-                                                            BIDS
+                                                            Status
                                                         </th>
                                                         <th>
-                                                            Status
+                                                            Actions
                                                         </th>
                                                     </tr>
                                                 </thead>
@@ -500,63 +454,58 @@
                                                             Lorem
                                                         </td>
                                                         <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
+                                                            <div class="d-flex gap-2">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="21"
+                                                                        height="17" viewBox="0 0 21 17" fill="none">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            d="M10.4424 4.85742C8.43052 4.85742 6.79956 6.48838 6.79956 8.50028C6.79956 10.5122 8.43052 12.1431 10.4424 12.1431C12.4543 12.1431 14.0853 10.5122 14.0853 8.50028C14.0853 6.48838 12.4543 4.85742 10.4424 4.85742ZM8.2567 8.50028C8.2567 7.29318 9.23532 6.31456 10.4424 6.31456C11.6495 6.31456 12.6281 7.29318 12.6281 8.50028C12.6281 9.70738 11.6495 10.686 10.4424 10.686C9.23532 10.686 8.2567 9.70738 8.2567 8.50028Z"
+                                                                            fill="#FF784F" />
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            d="M10.4429 0C6.0577 0 3.104 2.62694 1.3897 4.85409L1.35878 4.89425C0.971079 5.39777 0.614001 5.86152 0.371756 6.40987C0.112336 6.9971 0 7.63708 0 8.5C0 9.36292 0.112336 10.0029 0.371756 10.5901C0.614001 11.1385 0.971079 11.6023 1.35879 12.1057L1.3897 12.1459C3.104 14.3731 6.0577 17 10.4429 17C14.828 17 17.7817 14.3731 19.496 12.1459L19.5269 12.1057C19.9147 11.6023 20.2717 11.1385 20.5139 10.5901C20.7734 10.0029 20.8857 9.36292 20.8857 8.5C20.8857 7.63708 20.7734 6.9971 20.5139 6.40987C20.2717 5.86151 19.9147 5.39776 19.5269 4.89423L19.496 4.85409C17.7817 2.62694 14.828 0 10.4429 0ZM2.54438 5.74289C4.12725 3.68649 6.70321 1.45714 10.4429 1.45714C14.1825 1.45714 16.7585 3.68649 18.3413 5.74289C18.7674 6.2964 19.017 6.62718 19.181 6.99866C19.3345 7.34594 19.4286 7.77036 19.4286 8.5C19.4286 9.22964 19.3345 9.65406 19.181 10.0013C19.017 10.3728 18.7674 10.7036 18.3413 11.2571C16.7585 13.3135 14.1825 15.5429 10.4429 15.5429C6.70321 15.5429 4.12725 13.3135 2.54438 11.2571C2.11834 10.7036 1.86878 10.3728 1.70462 10.0013C1.55122 9.65406 1.45714 9.22964 1.45714 8.5C1.45714 7.77036 1.55122 7.34594 1.70462 6.99866C1.86878 6.62718 2.11833 6.2964 2.54438 5.74289Z"
+                                                                            fill="#FF784F" />
+                                                                    </svg>
+                                                                </div>
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                        height="18" viewBox="0 0 18 18" fill="none">
+                                                                        <path
+                                                                            d="M16.3572 4.57389L8.75818 12.1729C8.00146 12.9296 5.75517 13.2801 5.25334 12.7783C4.75152 12.2765 5.09403 10.0302 5.85075 9.27348L13.4578 1.66646C13.6454 1.4618 13.8725 1.29728 14.1255 1.18282C14.3784 1.06835 14.6519 1.0063 14.9295 1.00045C15.207 0.994616 15.483 1.04507 15.7405 1.14879C15.998 1.25251 16.2319 1.40736 16.4279 1.60394C16.6239 1.80053 16.7781 2.0348 16.8811 2.29261C16.9841 2.55043 17.0339 2.82643 17.0273 3.10399C17.0207 3.38154 16.9578 3.65491 16.8427 3.90754C16.7276 4.16016 16.5624 4.38685 16.3572 4.57389Z"
+                                                                            stroke="#0085FF" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M8.16893 2.66211H4.18619C3.34116 2.66211 2.53079 2.99779 1.93326 3.59532C1.33574 4.19285 1 5.00327 1 5.8483V13.8138C1 14.6588 1.33574 15.4692 1.93326 16.0667C2.53079 16.6643 3.34116 17 4.18619 17H12.9482C14.7086 17 15.3379 15.5662 15.3379 13.8138V9.83104"
+                                                                            stroke="#0085FF" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </div>
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="17"
+                                                                        height="19" viewBox="0 0 17 19" fill="none">
+                                                                        <path d="M6.625 9.4375V14.125" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path d="M10.375 9.4375V14.125" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path d="M1 4.75098H16" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M2.875 7.5625V15.0625C2.875 16.6158 4.1342 17.875 5.6875 17.875H11.3125C12.8658 17.875 14.125 16.6158 14.125 15.0625V7.5625"
+                                                                            stroke="#B60000" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M5.6875 2.875C5.6875 1.83947 6.52697 1 7.5625 1H9.4375C10.4731 1 11.3125 1.83947 11.3125 2.875V4.75H5.6875V2.875Z"
+                                                                            stroke="#B60000" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -564,7 +513,8 @@
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                        aria-labelledby="pills-profile-tab" tabindex="0"> <!-- Table -->
+                                        aria-labelledby="pills-profile-tab" tabindex="0">
+                                        <!-- Table -->
                                         <div class="table-truck mb-2 table-responsive">
                                             <table class="table-0 ">
                                                 <thead>
@@ -599,10 +549,10 @@
                                                             Rate
                                                         </th>
                                                         <th>
-                                                            BIDS
+                                                            Status
                                                         </th>
                                                         <th>
-                                                            Status
+                                                            Actions
                                                         </th>
                                                     </tr>
                                                 </thead>
@@ -632,35 +582,58 @@
                                                             Lorem
                                                         </td>
                                                         <td>
-                                                            Lorem
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input class="form-check-input select-all" type="checkbox"
-                                                                value="" id="flexCheckDefault"></td>
-                                                        <td>
-                                                            45
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum
-                                                        </td>
-                                                        <td>
-                                                            20/02/2023
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem ipsum dolor
-                                                        </td>
-                                                        <td>
-                                                            Lorem
-                                                        </td>
-                                                        <td>
-                                                            Lorem
+                                                            <div class="d-flex gap-2">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="21"
+                                                                        height="17" viewBox="0 0 21 17" fill="none">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            d="M10.4424 4.85742C8.43052 4.85742 6.79956 6.48838 6.79956 8.50028C6.79956 10.5122 8.43052 12.1431 10.4424 12.1431C12.4543 12.1431 14.0853 10.5122 14.0853 8.50028C14.0853 6.48838 12.4543 4.85742 10.4424 4.85742ZM8.2567 8.50028C8.2567 7.29318 9.23532 6.31456 10.4424 6.31456C11.6495 6.31456 12.6281 7.29318 12.6281 8.50028C12.6281 9.70738 11.6495 10.686 10.4424 10.686C9.23532 10.686 8.2567 9.70738 8.2567 8.50028Z"
+                                                                            fill="#FF784F" />
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            d="M10.4429 0C6.0577 0 3.104 2.62694 1.3897 4.85409L1.35878 4.89425C0.971079 5.39777 0.614001 5.86152 0.371756 6.40987C0.112336 6.9971 0 7.63708 0 8.5C0 9.36292 0.112336 10.0029 0.371756 10.5901C0.614001 11.1385 0.971079 11.6023 1.35879 12.1057L1.3897 12.1459C3.104 14.3731 6.0577 17 10.4429 17C14.828 17 17.7817 14.3731 19.496 12.1459L19.5269 12.1057C19.9147 11.6023 20.2717 11.1385 20.5139 10.5901C20.7734 10.0029 20.8857 9.36292 20.8857 8.5C20.8857 7.63708 20.7734 6.9971 20.5139 6.40987C20.2717 5.86151 19.9147 5.39776 19.5269 4.89423L19.496 4.85409C17.7817 2.62694 14.828 0 10.4429 0ZM2.54438 5.74289C4.12725 3.68649 6.70321 1.45714 10.4429 1.45714C14.1825 1.45714 16.7585 3.68649 18.3413 5.74289C18.7674 6.2964 19.017 6.62718 19.181 6.99866C19.3345 7.34594 19.4286 7.77036 19.4286 8.5C19.4286 9.22964 19.3345 9.65406 19.181 10.0013C19.017 10.3728 18.7674 10.7036 18.3413 11.2571C16.7585 13.3135 14.1825 15.5429 10.4429 15.5429C6.70321 15.5429 4.12725 13.3135 2.54438 11.2571C2.11834 10.7036 1.86878 10.3728 1.70462 10.0013C1.55122 9.65406 1.45714 9.22964 1.45714 8.5C1.45714 7.77036 1.55122 7.34594 1.70462 6.99866C1.86878 6.62718 2.11833 6.2964 2.54438 5.74289Z"
+                                                                            fill="#FF784F" />
+                                                                    </svg>
+                                                                </div>
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                        height="18" viewBox="0 0 18 18" fill="none">
+                                                                        <path
+                                                                            d="M16.3572 4.57389L8.75818 12.1729C8.00146 12.9296 5.75517 13.2801 5.25334 12.7783C4.75152 12.2765 5.09403 10.0302 5.85075 9.27348L13.4578 1.66646C13.6454 1.4618 13.8725 1.29728 14.1255 1.18282C14.3784 1.06835 14.6519 1.0063 14.9295 1.00045C15.207 0.994616 15.483 1.04507 15.7405 1.14879C15.998 1.25251 16.2319 1.40736 16.4279 1.60394C16.6239 1.80053 16.7781 2.0348 16.8811 2.29261C16.9841 2.55043 17.0339 2.82643 17.0273 3.10399C17.0207 3.38154 16.9578 3.65491 16.8427 3.90754C16.7276 4.16016 16.5624 4.38685 16.3572 4.57389Z"
+                                                                            stroke="#0085FF" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M8.16893 2.66211H4.18619C3.34116 2.66211 2.53079 2.99779 1.93326 3.59532C1.33574 4.19285 1 5.00327 1 5.8483V13.8138C1 14.6588 1.33574 15.4692 1.93326 16.0667C2.53079 16.6643 3.34116 17 4.18619 17H12.9482C14.7086 17 15.3379 15.5662 15.3379 13.8138V9.83104"
+                                                                            stroke="#0085FF" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </div>
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="17"
+                                                                        height="19" viewBox="0 0 17 19" fill="none">
+                                                                        <path d="M6.625 9.4375V14.125" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path d="M10.375 9.4375V14.125" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path d="M1 4.75098H16" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M2.875 7.5625V15.0625C2.875 16.6158 4.1342 17.875 5.6875 17.875H11.3125C12.8658 17.875 14.125 16.6158 14.125 15.0625V7.5625"
+                                                                            stroke="#B60000" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M5.6875 2.875C5.6875 1.83947 6.52697 1 7.5625 1H9.4375C10.4731 1 11.3125 1.83947 11.3125 2.875V4.75H5.6875V2.875Z"
+                                                                            stroke="#B60000" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -668,7 +641,8 @@
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab" tabindex="0"> <!-- Table -->
+                                        aria-labelledby="pills-contact-tab" tabindex="0">
+                                        <!-- Table -->
                                         <div class="table-truck mb-2 table-responsive">
                                             <table class="table-0 ">
                                                 <thead>
@@ -703,10 +677,10 @@
                                                             Rate
                                                         </th>
                                                         <th>
-                                                            BIDS
+                                                            Status
                                                         </th>
                                                         <th>
-                                                            Status
+                                                            Actions
                                                         </th>
                                                     </tr>
                                                 </thead>
@@ -736,7 +710,58 @@
                                                             Lorem
                                                         </td>
                                                         <td>
-                                                            Lorem
+                                                            <div class="d-flex gap-2">
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="21"
+                                                                        height="17" viewBox="0 0 21 17" fill="none">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            d="M10.4424 4.85742C8.43052 4.85742 6.79956 6.48838 6.79956 8.50028C6.79956 10.5122 8.43052 12.1431 10.4424 12.1431C12.4543 12.1431 14.0853 10.5122 14.0853 8.50028C14.0853 6.48838 12.4543 4.85742 10.4424 4.85742ZM8.2567 8.50028C8.2567 7.29318 9.23532 6.31456 10.4424 6.31456C11.6495 6.31456 12.6281 7.29318 12.6281 8.50028C12.6281 9.70738 11.6495 10.686 10.4424 10.686C9.23532 10.686 8.2567 9.70738 8.2567 8.50028Z"
+                                                                            fill="#FF784F" />
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            d="M10.4429 0C6.0577 0 3.104 2.62694 1.3897 4.85409L1.35878 4.89425C0.971079 5.39777 0.614001 5.86152 0.371756 6.40987C0.112336 6.9971 0 7.63708 0 8.5C0 9.36292 0.112336 10.0029 0.371756 10.5901C0.614001 11.1385 0.971079 11.6023 1.35879 12.1057L1.3897 12.1459C3.104 14.3731 6.0577 17 10.4429 17C14.828 17 17.7817 14.3731 19.496 12.1459L19.5269 12.1057C19.9147 11.6023 20.2717 11.1385 20.5139 10.5901C20.7734 10.0029 20.8857 9.36292 20.8857 8.5C20.8857 7.63708 20.7734 6.9971 20.5139 6.40987C20.2717 5.86151 19.9147 5.39776 19.5269 4.89423L19.496 4.85409C17.7817 2.62694 14.828 0 10.4429 0ZM2.54438 5.74289C4.12725 3.68649 6.70321 1.45714 10.4429 1.45714C14.1825 1.45714 16.7585 3.68649 18.3413 5.74289C18.7674 6.2964 19.017 6.62718 19.181 6.99866C19.3345 7.34594 19.4286 7.77036 19.4286 8.5C19.4286 9.22964 19.3345 9.65406 19.181 10.0013C19.017 10.3728 18.7674 10.7036 18.3413 11.2571C16.7585 13.3135 14.1825 15.5429 10.4429 15.5429C6.70321 15.5429 4.12725 13.3135 2.54438 11.2571C2.11834 10.7036 1.86878 10.3728 1.70462 10.0013C1.55122 9.65406 1.45714 9.22964 1.45714 8.5C1.45714 7.77036 1.55122 7.34594 1.70462 6.99866C1.86878 6.62718 2.11833 6.2964 2.54438 5.74289Z"
+                                                                            fill="#FF784F" />
+                                                                    </svg>
+                                                                </div>
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                        height="18" viewBox="0 0 18 18" fill="none">
+                                                                        <path
+                                                                            d="M16.3572 4.57389L8.75818 12.1729C8.00146 12.9296 5.75517 13.2801 5.25334 12.7783C4.75152 12.2765 5.09403 10.0302 5.85075 9.27348L13.4578 1.66646C13.6454 1.4618 13.8725 1.29728 14.1255 1.18282C14.3784 1.06835 14.6519 1.0063 14.9295 1.00045C15.207 0.994616 15.483 1.04507 15.7405 1.14879C15.998 1.25251 16.2319 1.40736 16.4279 1.60394C16.6239 1.80053 16.7781 2.0348 16.8811 2.29261C16.9841 2.55043 17.0339 2.82643 17.0273 3.10399C17.0207 3.38154 16.9578 3.65491 16.8427 3.90754C16.7276 4.16016 16.5624 4.38685 16.3572 4.57389Z"
+                                                                            stroke="#0085FF" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M8.16893 2.66211H4.18619C3.34116 2.66211 2.53079 2.99779 1.93326 3.59532C1.33574 4.19285 1 5.00327 1 5.8483V13.8138C1 14.6588 1.33574 15.4692 1.93326 16.0667C2.53079 16.6643 3.34116 17 4.18619 17H12.9482C14.7086 17 15.3379 15.5662 15.3379 13.8138V9.83104"
+                                                                            stroke="#0085FF" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </div>
+                                                                <div>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="17"
+                                                                        height="19" viewBox="0 0 17 19" fill="none">
+                                                                        <path d="M6.625 9.4375V14.125" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path d="M10.375 9.4375V14.125" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path d="M1 4.75098H16" stroke="#B60000"
+                                                                            stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M2.875 7.5625V15.0625C2.875 16.6158 4.1342 17.875 5.6875 17.875H11.3125C12.8658 17.875 14.125 16.6158 14.125 15.0625V7.5625"
+                                                                            stroke="#B60000" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                        <path
+                                                                            d="M5.6875 2.875C5.6875 1.83947 6.52697 1 7.5625 1H9.4375C10.4731 1 11.3125 1.83947 11.3125 2.875V4.75H5.6875V2.875Z"
+                                                                            stroke="#B60000" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
                                                         </td>
                                                     </tr>
                                                 </tbody>
