@@ -641,6 +641,10 @@ h6 {
     width: 40px;
 }
 
+.icon-width img {
+    width: 70%;
+}
+
 .profile-data select {
     border: none;
     width: max-content;
@@ -727,6 +731,7 @@ h6 {
     color: #FFF;
     gap: 10px;
 }
+
 .add-truck-btn button {
     border-radius: 100px;
     background: #FE3B00;
@@ -739,6 +744,7 @@ h6 {
     color: #FFF;
     gap: 10px;
 }
+
 .truck-data-table {
     border-radius: 10px;
     background: #FFF;
@@ -993,13 +999,14 @@ td {
     font-weight: 800;
     transition: .4s all;
 }
-.btn-markas:hover{
+
+.btn-markas:hover {
     background-color: #FE3B00;
     color: #FFF;
 }
 
-@media(max-width: 1400px){
-    .table-truck table{
+@media(max-width: 1400px) {
+    .table-truck table {
         width: max-content;
     }
 }
