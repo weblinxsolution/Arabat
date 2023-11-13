@@ -926,7 +926,7 @@ td {
 
 .local-input-area select {
     padding: 1rem 2rem;
-    border-bottom: 1px solid #FE3B00;
+    /* border-bottom: 1px solid #FE3B00; */
 }
 
 .detail-row {
@@ -1003,6 +1003,26 @@ td {
 .btn-markas:hover {
     background-color: #FE3B00;
     color: #FFF;
+}
+
+.copy-the-link {
+    position: relative;
+}
+
+.copy-the-link input {
+    border-radius: 10px;
+    background: #ECECEC;
+    border: none;
+    padding: 1rem 5rem 1rem .5rem; 
+    width: 100%;
+}
+.copy-the-link button {
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 1rem;
 }
 
 @media(max-width: 1400px) {
