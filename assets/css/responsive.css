@@ -88,6 +88,9 @@
 }
 
 @media (max-width:400px) {
+    .login-heading p{
+        font-size: 25px !important;
+    }
     .defult-size {
         font-size: 40px !important;
     }
